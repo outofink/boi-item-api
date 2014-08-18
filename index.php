@@ -29,10 +29,9 @@ $app->get('/boi/items/:id', function ($id) {
     $newid = intval($id)-1;
     if ($newid >= 0) {
         $items = $boi["items"];
-        echo "<br>";
         echo $newid;
         echo "<br>";
-        echo json_encode($items);
+        echo json_encode($items[newid]);
     }
     else {
         echo "Invalid id.";
