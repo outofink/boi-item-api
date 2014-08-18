@@ -26,8 +26,8 @@ $app->get('/boi/items', function () use ($app) {
 });
 $app->get('/boi/items/:id', function ($id) {
     for ($i = 0; ; $i++) {
-        echo json_encode($boi["items"][$i], JSON_UNESCAPED_SLASHES | JSON_PRETTY_PRINT);
-        
+        echo json_encode($boi[$i]);
+        echo "<br>";
         if ($boi["items"][$i]["itemid"] == $id) {
 	    echo json_encode($boi["items"][$i], JSON_UNESCAPED_SLASHES | JSON_PRETTY_PRINT);
             break;
