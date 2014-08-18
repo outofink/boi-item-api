@@ -5,7 +5,7 @@ $app = new \Slim\Slim();
 
 $boi_json = file_get_contents("boi.json");
 
-$boi = json_decode($boi_json);
+$boi = json_decode($boi_json, true);
 $boi_json_v2 = json_encode($boi, JSON_UNESCAPED_SLASHES | JSON_PRETTY_PRINT);
 
 $app->get('/', function () {
@@ -28,11 +28,13 @@ $app->get('/boi/items/:id', function ($id) {
     global $boi;
     $newid = intval($id)-1;
     if ($newid >= 0) {
-        echo json_encode($boi->items->$newid);
+        $items = $boi->items;
+        echo json_encode($items[$newid]);
     }
     else {
         echo "Invalid id.";
     }
+    echo "<br>";
     echo "DEBUG";
 });
 $app->run();
