@@ -29,7 +29,7 @@ $app->get('/boi/items/:id', function ($id) {
     $newid = intval($id);
     if ($newid > 0 or $newid > 196) {
         $items = $boi["items"];
-        $itembyid = json_encode($items[$newid], JSON_UNESCAPED_SLASHES | JSON_PRETTY_PRINT)
+        $itembyid = json_encode($items[$newid], JSON_UNESCAPED_SLASHES | JSON_PRETTY_PRINT);
         echo "<pre>";
         echo $itembyid;
         echo "</pre>";
