@@ -55,7 +55,7 @@
                 "+1.5 Tears Up",
                 "Range Down (-13 Range)",
                 "You essentially end up with an extremely high fire rate but a very low tear range",
-                "Picking up this item turns any identified 'Range Down' pills into 'Rangе up' pills"
+                "Picking up this item turns any identified 'Range Down' pills into 'Range up' pills"
             ]
         },
         {
@@ -64,7 +64,7 @@
             "special": "yes",
             "stats": [
                 "+1 Damage",
-                "Adds a x1.5 damage multiplier <b>ONLY</b> if the player also has The Devil Card/Bооk of Belial effect (does not stack with the multipliers that Max's Head and Magic Mushroom give)",
+                "Adds a x1.5 damage multiplier <b>ONLY</b> if the player also has The Devil Card/Book of Belial effect (does not stack with the multipliers that Max's Head and Magic Mushroom give)",
                 "The x1.5 multiplier from Blood of The Martyr and The Book of Belial does not work with Mom's Knife, Brimstone, Technology and Kamikaze Flies",
                 "Can appear in the Angel Room"
             ]
@@ -586,8 +586,8 @@
             "itemid": "63",
             "special": "no",
             "stats": [
-                "Gives the player one extra charge of their spаcebar item after every 15 seconds spent in a hostile room (where the doors are shut) up to a total of three charges",
-                "Using a spаcebar item will reset the charge counter, meaning an extra three charges can be achieved per room (A total of six)",
+                "Gives the player one extra charge of their spacebar item after every 15 seconds spent in a hostile room (where the doors are shut) up to a total of three charges",
+                "Using a spacebar item will reset the charge counter, meaning an extra three charges can be achieved per room (A total of six)",
                 "Found in the Shop Room item pool"
             ]
         },
@@ -775,7 +775,7 @@
                 "Health is set to 1 and you gain an extra 8 lives. You can increase your heart containers as normal, however each time you die it will be reset to 1 again",
                 "This is one of the four items which counts towards being Guppy",
                 "Each death still adds to the death counter on the stats page in game",
-                "1/50 chance to get this item from a Rеd Chest",
+                "1/50 chance to get this item from a Red Chest",
                 "14.3% chance to drop from the Super Pride mini boss",
                 "An item commonly found in the Devil Room"
             ]
@@ -1010,7 +1010,7 @@
             "itemid": "105",
             "special": "no",
             "stats": [
-                "Upon use, any 'pedestal' items will be re-rolled into another item that corresponds with that room's item pool. Pedestal items include items from the shop, devil deal room, angеl room, boss room, treasure room or secret room",
+                "Upon use, any 'pedestal' items will be re-rolled into another item that corresponds with that room's item pool. Pedestal items include items from the shop, devil deal roome, angel room, boss room, treasure room or secret room",
                 "The Dice does not re-roll trinkets or other collectables which do not spawn on a 'pedestal'",
                 "Re-rolled items will pick from the item pool corresponding to the type of room it is in. This includes curse rooms which can re-roll items into Devil or God items",
                 "Recharge Time: 3 Rooms"
@@ -1121,8 +1121,8 @@
             "itemid": "116",
             "special": "no",
             "stats": [
-                "Upon using a spаcebar item, two bars of charge will automatically be re-charged",
-                "Upon pickup, the current spаcebar item will be fully charged if it isn't already",
+                "Upon using a spacebar item, two bars of charge will automatically be re-charged",
+                "Upon pickup, the current spacebar item will be fully charged if it isn't already",
                 "Item found in the Shop Room item pool"
             ]
         },
@@ -1210,7 +1210,7 @@
             "special": "no",
             "stats": [
                 "Upon use, uses a random activated item",
-                "The following item effects can occur: The Bооk of Belial, The Necronomicon, Mr. Boom!. Tammy's Head, Moms Bra, Kamikaze!, Mom's Pad, Bob's Rotten Head, Teleport!, Yum Heart, Lemon Mishap, Shoop Da Whoop!, Bооk of Shadows, Wiggle Worm, Anarchist Cookbооk, The Hourglass, My Little Unicorn, Bооk of Revelations, The Nail, We Need To Go Deeper!, Deck of Cards, Monstro's Tooth, The Gamekid, The Bооk of Sin, Moms Bottle of Pills, The Pinking Shears",
+                "The following item effects can occur: The Book of Belial, The Necronomicon, Mr. Boom!. Tammy's Head, Moms Bra, Kamikaze!, Mom's Pad, Bob's Rotten Head, Teleport!, Yum Heart, Lemon Mishap, Shoop Da Whoop!, Book of Shadows, Wiggle Worm, Anarchist Cookbook, The Hourglass, My Little Unicorn, Book of Revelations, The Nail, We Need To Go Deeper!, Deck of Cards, Monstro's Tooth, The Gamekid, The Book of Sin, Moms Bottle of Pills, The Pinking Shears",
                 "Recharge Time: 4 Rooms"
             ]
         },
@@ -1305,9 +1305,9 @@
             "special": "no",
             "stats": [
                 "Converts one heart container into 3 Soul hearts",
-                "1/50 chance to spawn in a rеd chest",
+                "1/50 chance to spawn in a red chest",
                 "Counts as one item towards achieving Guppy state",
-                "Synergises well with the polaroid or other effects which activate when the player has less than one rеd heart",
+                "Synergises well with the polaroid or other effects which activate when the player has less than one red heart",
                 "An item commonly found in the Devil Room",
                 "Recharge Time: Instant"
             ]
@@ -1317,10 +1317,10 @@
             "itemid": "134",
             "special": "no",
             "stats": [
-                "Upon clearing a room, the tail gives 1/3 chance to drop either a brоwn or gold chest with equal probability",
+                "Upon clearing a room, the tail gives 1/3 chance to drop either a brown or gold chest with equal probability",
                 "If no chest spawns because of this item, there is a 1/3 chance that nothing will spawn after clearing the room. In other words, after clearing each room there is a 22% chance that any pickups drops will be negated (e.g. keys, bombs, coins etc.",
                 "An item commonly found in the Devil Room",
-                "1/25 chance to spawn in a rеd chest. 1/40 chance to spawn if you have not completed the '9 Deaths' challenge",
+                "1/25 chance to spawn in a red chest. 1/40 chance to spawn if you have not completed the '9 Deaths' challenge",
                 "Counts as one item towards achieving Guppy state",
                 "Picking up more than one Guppy's Tail item counts multiple times towards achieving Guppy state. This is the only Guppy item out of the four which can count more than once"
             ]
@@ -1431,9 +1431,9 @@
             "itemid": "145",
             "special": "no",
             "stats": [
-                "Upon activation, spawns 2-4 bluе flies which damage nearby enemies. Bluе flies do twice the player's damage",
+                "Upon activation, spawns 2-4 blue flies which damage nearby enemies. Blue flies do twice the player's damage",
                 "Counts as one item towards achieving Guppy state",
-                "1/50 chance to spawn in a rеd chest",
+                "1/50 chance to spawn in a red chest",
                 "An item commonly found in the Devil Room",
                 "Recharge Time: 1 Rooms"
             ]
@@ -1463,8 +1463,8 @@
             "itemid": "148",
             "special": "no",
             "stats": [
-                "When the player gets hit, 1-3 bluе flies randomly spawn, which will attack enemies in close proximity",
-                "Bluе flies do twice the player's damage"
+                "When the player gets hit, 1-3 blue flies randomly spawn, which will attack enemies in close proximity",
+                "Blue flies do twice the player's damage"
             ]
         },
         {
@@ -1472,7 +1472,7 @@
             "itemid": "149",
             "special": "yes",
             "stats": [
-                "Tears now become grееn projectiles which will arc over enemies and rocks and explode on contact, dealing 53.5 damage to anything in range at base damage. Damage increases will increase that number slightly",
+                "Tears now become green projectiles which will arc over enemies and rocks and explode on contact, dealing 53.5 damage to anything in range at base damage. Damage increases will increase that number slightly",
                 "Tears down significantly: (delay = delay * 2.1 + 3)",
                 "Since this item effectively gives you unlimited bombs, it is extremely useful for finding secret rooms and escaping from tricky rooms by bombing the door",
                 "Too many Range stat upgrades can make this item harder to aim short shots",
@@ -1519,7 +1519,7 @@
                 "Tears down significantly: (delay = delay * 2.1 + 3)",
                 "This essentially lowers your tear rate by about 2 tears per second",
                 "The order in which you take Polyphemus and the Mutant Spider items does NOT matter, the combination will be the same no matter which item you took first. Having Quad and Poly at the same time is not a damage down as long as you hit with 2 or more tears and the only damage down situation is if you have another tear modifier such as Mom's Knife or Brimstone which brings you back down to a single damage source",
-                "In the 1.5 version of the game (Most unholy edition), this item is a spеcial item"
+                "In the 1.5 version of the game (Most unholy edition), this item is a special item"
             ]
         },
         {
@@ -1547,7 +1547,7 @@
             "special": "no",
             "stats": [
                 "With this item, when the player takes damage, 3 bars (half) of the space bar item is recharged",
-                "The Habit synergises extremely well with a few items: The Bооk of Revelations, the Nail and the Yum Heart can all technically make you invincible before the Womb and after the Womb if you acquire The Wafer",
+                "The Habit synergises extremely well with a few items: The Book of Revelations, the Nail and the Yum Heart can all technically make you invincible before the Womb and after the Womb if you acquire The Wafer",
                 "In the 1.5 version of the game (Most unholy edition), this item recharges one room's worth of charge instead of 3 bars of charge. For example, the D6 has a 3 room recharge, therefore you need to get hit 3 times with the habit to fully recharge it"
             ]
         },
@@ -1763,7 +1763,7 @@
             "special": "no",
             "stats": [
                 "Does exactly what it says on the tin - Using the portable slot gives you the same effect as the Red Slot machine",
-                "Using this in a boss room to spawn a blаck fly after defeating the boss will enable the player to leave the room and re-enter, which will refresh the boss room and therefore give you another item",
+                "Using this in a boss room to spawn a black fly after defeating the boss will enable the player to leave the room and re-enter, which will refresh the boss room and therefore give you another item",
                 "Recharge Time: Instant"
             ]
         },
