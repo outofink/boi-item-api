@@ -64,7 +64,7 @@
             "special": "yes",
             "stats": [
                 "+1 Damage",
-                "Adds a x1.5 damage multiplier <b>ONLY</b> if the player also has The Devil Card/Book of Belial effect (does not stack with the multipliers that Max's Head and Magic Mushroom give)",
+                "Adds a x1.5 damage multiplier ONLY if the player also has The Devil Card/Book of Belial effect (does not stack with the multipliers that Max's Head and Magic Mushroom give)",
                 "The x1.5 multiplier from Blood of The Martyr and The Book of Belial does not work with Mom's Knife, Brimstone, Technology and Kamikaze Flies",
                 "Can appear in the Angel Room"
             ]
@@ -311,7 +311,7 @@
             "special": "no",
             "stats": [
                 "+2 Damage",
-                "Adds a x1.5 damage multiplier <b><u>ONLY</u></b> if the player also has Blood of the Martyr",
+                "Adds a x1.5 damage multiplier ONLY if the player also has Blood of the Martyr",
                 "The x1.5 multiplier from Book of Belial + Blood of The Martyr does not work with Mom's Knife, Brimstone, Technology and Kamikaze Flies",
                 "Gives a 25% higher chance to spawn a Devil Room while holding this item",
                 "Starting as Judas with the Book of Belial will give you the extra chance for a devil room but will not increase your chance of seeing a library",
@@ -406,7 +406,7 @@
             "special": "no",
             "stats": [
                 "Teleports the player to a random room",
-                "This item cannot teleport you to the <i>I AM ERROR</i> room",
+                "This item cannot teleport you to the I AM ERROR room",
                 "Recharge Time: 2 Rooms"
             ]
         },
@@ -1870,10 +1870,10 @@
             "itemid": "187",
             "special": "yes",
             "stats": [
-                "Follows behind Isaac and can be swung around to deal damage on contact to enemies equal to:<br> (3 + size * 2)",
+                "Follows behind Isaac and can be swung around to deal damage on contact to enemies equal to: (3 + size * 2)",
                 "The hairball size starts at 1 and has a random chance to become larger each time it kills an enemy (up to a maximum of size = 6), with a probability of 1/x, where X is the current size of the hairball. At size one, the chance is 1/1; at size two, the chance is 1/2 etc",
                 "The size of the hairball persists between rooms, but at the end of each floor it decreases in size by roughly half. The exact calculation is \"size = floor(size * 0.5 + 0.5)",
-                "This item does <b><u>NOT</u></b> count towards achieving Guppy state"
+                "This item does NOT count towards achieving Guppy state"
             ]
         },
         {
