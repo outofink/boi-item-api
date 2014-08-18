@@ -6,8 +6,7 @@ $app = new \Slim\Slim();
 $boi_json = file_get_contents("boi.json");
 
 $boi = json_decode($boi_json);
-$boi_json_v2 = json_encode($boi, JSON_PRETTY_PRINT);
-$boi_json_v2 = str_replace("\/","/",$$boi_json_v2);
+$boi_json_v2 = json_encode($boi, JSON_PRETTY_PRINT, JSON_UNESCAPED_SLASHES);
 
 $app->get('/hello/:name', function ($name) {
     echo "Hello, $name!";
