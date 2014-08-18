@@ -401,6 +401,12 @@
             ]
         },
         {
+            "title": "Pills",
+            "itemid": "43",
+            "special": "no",
+            "stats": []
+        },
+        {
             "title": "Teleport!",
             "itemid": "44",
             "special": "no",
@@ -572,6 +578,12 @@
                 "Allows the player to walk over gaps with a width of one tile",
                 "Found in the Shop Room item pool"
             ]
+        },
+        {
+            "title": "Tarot Card",
+            "itemid": "61",
+            "special": "no",
+            "stats": []
         },
         {
             "title": "Charm of the Vampire",
