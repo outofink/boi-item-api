@@ -31,7 +31,7 @@ $app->get('/boi/items/:id', function ($id) {
         $items = $boi["items"];
         echo $newid;
         echo "<br>";
-        echo json_encode($items[0]);
+        echo json_encode($items[$newid]);
     }
     else {
         echo "Invalid id.";
