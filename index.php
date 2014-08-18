@@ -27,7 +27,7 @@ $app->get('/boi/items', function () use ($app) {
 $app->get('/boi/items/:id', function ($id) {
     global $boi;
     $newid = intval($id)-1;
-    if ($newid > 0 and $newid <= 198) {
+    if ($newid >= 0 and $newid < 198) {
         $items = $boi["items"];
         $itembyid = json_encode($items[$newid], JSON_UNESCAPED_SLASHES | JSON_PRETTY_PRINT);
         echo "<pre>";
