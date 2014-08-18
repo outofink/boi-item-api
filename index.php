@@ -25,7 +25,7 @@ $app->get('/boi/items', function () use ($app) {
     $app->redirect('/boi/items/all');
 });
 $app->get('/boi/items/:id', function ($id) {
-    foreach ($boi->items as $item) {
+    foreach ($boi["items"] as $item) {
 
         echo json_encode($item);
         echo "<br>";
