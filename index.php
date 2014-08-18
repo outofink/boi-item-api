@@ -3,7 +3,7 @@ require 'vendor/autoload.php';
 
 $app = new \Slim\Slim();
 
-$boi_json = file_get_contents("boi.json")
+$boi_json = file_get_contents("boi.json");
 
 $boi = json_decode($boi_json);
 $boi_json_v2 = json_encode($boi, JSON_PRETTY_PRINT);
@@ -21,7 +21,7 @@ $app->get('/boi/allitems/compressed', function () {
 });
 $app->get('/boi/allitems', function () {
     global $boi_json_v2;
-    echo nl2br($boi_json_v2);
+    echo $boi_json_v2;
 });
 
 $app->run();
