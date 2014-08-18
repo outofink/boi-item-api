@@ -6,7 +6,7 @@ $app = new \Slim\Slim();
 $boi_json = file_get_contents("boi.json");
 
 $boi = json_decode($boi_json, true);
-$boi_json_v2 = json_encode($boi, JSON_PRETTY_PRINT, JSON_UNESCAPED_SLASHES);
+$boi_json_v2 = json_encode($boi, JSON_UNESCAPED_SLASHES | JSON_PRETTY_PRINT);
 
 $app->get('/hello/:name', function ($name) {
     echo "Hello, $name!";
@@ -16,8 +16,8 @@ $app->get('/', function () {
     echo "Hello!";
 });
 $app->get('/boi/items/all/compressed', function () {
-    global $boi_json;
-    echo $boi_json;
+    global $boi_json_v2;
+    echo $boi_json_v2;
 });
 $app->get('/boi/items/all', function () {
     global $boi_json_v2;
