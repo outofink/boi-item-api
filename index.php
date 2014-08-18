@@ -28,10 +28,11 @@ $app->get('/boi/items/:id', function ($id) {
     global $boi;
     $newid = intval($id)-1;
     if ($newid >= 0) {
-        echo json_encode($boi["items"][$newid]);
+        echo json_encode($boi->items->$newid);
     }
     else {
         echo "Invalid id.";
     }
+    echo "DEBUG";
 });
 $app->run();
