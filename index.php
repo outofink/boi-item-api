@@ -25,14 +25,8 @@ $app->get('/boi/items', function () use ($app) {
     $app->redirect('/boi/items/all');
 });
 $app->get('/boi/items/:id', function ($id) {
-    foreach ($boi as $item) {
-
-        echo json_encode($item);
+        echo json_encode($item->items);
         echo "<br>";
-        if ($item->itemid == $id) {
-	        echo json_encode($item, JSON_UNESCAPED_SLASHES | JSON_PRETTY_PRINT);
-            break;
-        }
     }
 });
 $app->run();
