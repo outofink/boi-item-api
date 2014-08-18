@@ -25,16 +25,12 @@ $app->get('/boi/items', function () use ($app) {
     $app->redirect('/boi/items/all');
 });
 $app->get('/boi/items/:id', function ($id) {
-    for ($i = 0; ; $i++) {
-        echo json_encode($boi[$i]);
+    foreach ($boi->items as $item) {
+
+        echo json_encode($item);
         echo "<br>";
-        if ($boi["items"][$i]["itemid"] == $id) {
-	    echo json_encode($boi["items"][$i], JSON_UNESCAPED_SLASHES | JSON_PRETTY_PRINT);
-            break;
-        }
-        
-        if ($i > 200) {
-            echo "Error, item not found.";
+        if ($item->itemid == $id) {
+	        echo json_encode($item, JSON_UNESCAPED_SLASHES | JSON_PRETTY_PRINT);
             break;
         }
     }
