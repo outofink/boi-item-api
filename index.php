@@ -28,7 +28,7 @@ $app->get('/boi/items/:id', function ($id) {
     global $boi;
     $newid = intval($id)-1;
     if ($newid >= 0) {
-        $items = $boi->items;
+        $items = $boi["items"];
         echo "<br>";
         echo $newid;
         echo "<br>";
