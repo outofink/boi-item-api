@@ -21,7 +21,9 @@ $app->get('/boi/allitems/compressed', function () {
 });
 $app->get('/boi/allitems', function () {
     global $boi_json_v2;
-    print_r($boi_json_v2);
+    echo "<pre>";
+    echo $boi_json_v2;
+    echo "</pre>";
 });
 
 $app->run();
