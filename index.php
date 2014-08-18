@@ -34,5 +34,6 @@ $app->get('/boi/items/:id', function ($id) {
             echo "Error, item not found.";
             break;
         }
+    }
 });
 $app->run();
