@@ -5,7 +5,7 @@ $app = new \Slim\Slim();
 
 $boi_json = file_get_contents("boi.json");
 
-$boi = json_decode($boi_json, true);
+$boi = json_decode($boi_json);
 $boi_json_v2 = json_encode($boi, JSON_UNESCAPED_SLASHES | JSON_PRETTY_PRINT);
 
 $app->get('/', function () {
