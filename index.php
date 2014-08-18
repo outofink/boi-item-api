@@ -9,6 +9,9 @@ $boi = json_decode($boi_json, true);
 $boi_json_v2 = json_encode($boi, JSON_UNESCAPED_SLASHES | JSON_PRETTY_PRINT);
 
 $app->get('/', function () {
+    echo "Welcome to the Out of Ink Software API!";
+});
+$app->get('/boi', function () {
     echo "Welcome to The Binding of Isaac item API!";
 });
 $app->get('/boi/items/all/compressed', function () {
