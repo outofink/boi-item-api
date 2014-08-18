@@ -26,8 +26,12 @@ $app->get('/boi/items', function () use ($app) {
 });
 $app->get('/boi/items/:id', function ($id) {
     global $boi;
-    echo json_encode($boi->items);
-    echo "<br>";
-    echo json_encode($boi);
+    $newid = intval($id)-1;
+    if ($newid >= 0) {
+        echo json_encode($boi["items"][$newid]);
+    }
+    else {
+        echo "Invalid id.";
+    }
 });
 $app->run();
