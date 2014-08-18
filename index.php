@@ -27,7 +27,6 @@ $app->get('/boi/items', function () use ($app) {
 $app->get('/boi/items/:id', function ($id) {
     for ($i = 0; ; $i++) {
         echo json_encode($boi["items"][$i]["itemid"], JSON_UNESCAPED_SLASHES | JSON_PRETTY_PRINT);
-        echo 
         
         if ($boi["items"][$i]["itemid"] == $id) {
 	    echo json_encode($boi["items"][$i], JSON_UNESCAPED_SLASHES | JSON_PRETTY_PRINT);
@@ -38,5 +37,6 @@ $app->get('/boi/items/:id', function ($id) {
             echo "Error, item not found.";
             break;
         }
+    }
 });
 $app->run();
