@@ -25,6 +25,7 @@ $app->get('/boi/items', function () use ($app) {
     $app->redirect('/boi/items/all');
 });
 $app->get('/boi/items/:id', function ($id) {
+    global $boi
         echo json_encode($boi->items);
         echo "<br>";
         echo json_encode($boi);
