@@ -26,17 +26,16 @@ $app->get('/boi/items', function () use ($app) {
 });
 $app->get('/boi/items/:id', function ($id) {
     global $boi;
-    $newid = intval($id)-1;
-    if ($newid >= 0) {
+    $newid = intval($id);
+    if ($newid > 0 or $newid > 196) {
         $items = $boi["items"];
-        echo $newid;
-        echo "<br>";
-        echo json_encode($items[$newid]);
+        $itembyid = json_encode($items[$newid], JSON_UNESCAPED_SLASHES | JSON_PRETTY_PRINT)
+        echo "<pre>";
+        echo $itembyid;
+        echo "</pre>";
     }
     else {
         echo "Invalid id.";
     }
-    echo "<br>";
-    echo "DEBUG";
 });
 $app->run();
