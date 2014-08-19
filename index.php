@@ -36,6 +36,9 @@ $app->get('/boi/items/all', function () {
 $app->get('/boi/items', function () use ($app) {
     $app->redirect('/boi/items/all');
 });
+$app->get('/boi/all', function () use ($app) {
+    $app->redirect('/boi/all/all');
+});
 $app->get('/boi/items/:id', function ($id) {
     global $items;
     $newid = intval($id)-1;
