@@ -22,6 +22,7 @@ $app->get('/boi/all/all', function () {
     echo "<pre>";
     echo json_encode($boi, JSON_UNESCAPED_SLASHES | JSON_PRETTY_PRINT);
     echo "</pre>";
+});
 $app->get('/boi/items/all/compressed', function () {
     global $items;
     echo json_encode($items, JSON_UNESCAPED_SLASHES | JSON_PRETTY_PRINT);
