@@ -4,9 +4,8 @@ require 'vendor/autoload.php';
 $app = new \Slim\Slim();
 
 $boi_json = file_get_contents("boi.json");
-
 $boi = json_decode($boi_json, true);
-$boi_json_v2 = json_encode($boi, JSON_UNESCAPED_SLASHES | JSON_PRETTY_PRINT);
+$items = $boi["items"];
 
 $app->get('/', function () {
     echo "Welcome to the Out of Ink Software API!";
@@ -14,24 +13,32 @@ $app->get('/', function () {
 $app->get('/boi', function () {
     echo "Welcome to The Binding of Isaac item API!";
 });
+$app->get('/boi/all/all/compressed', function () {
+    global $boi;
+    echo json_encode($boi, JSON_UNESCAPED_SLASHES | JSON_PRETTY_PRINT);
+});
+$app->get('/boi/all/all', function () {
+    global $boi;
+    echo "<pre>";
+    echo json_encode($boi, JSON_UNESCAPED_SLASHES | JSON_PRETTY_PRINT);
+    echo "</pre>";
 $app->get('/boi/items/all/compressed', function () {
-    global $boi_json_v2;
-    echo $boi_json_v2;
+    global $items;
+    echo json_encode($items, JSON_UNESCAPED_SLASHES | JSON_PRETTY_PRINT);
 });
 $app->get('/boi/items/all', function () {
-    global $boi_json_v2;
+    global $items;
     echo "<pre>";
-    echo $boi_json_v2;
+    echo json_encode($items, JSON_UNESCAPED_SLASHES | JSON_PRETTY_PRINT);
     echo "</pre>";
 });
 $app->get('/boi/items', function () use ($app) {
     $app->redirect('/boi/items/all');
 });
 $app->get('/boi/items/:id', function ($id) {
-    global $boi;
+    global $items;
     $newid = intval($id)-1;
     if ($newid >= 0 and $newid < 198) {
-        $items = $boi["items"];
         $itembyid = json_encode($items[$newid], JSON_UNESCAPED_SLASHES | JSON_PRETTY_PRINT);
         echo "<pre>";
         echo $itembyid;
