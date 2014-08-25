@@ -27,12 +27,12 @@ $app->get('/boi/all/all', function () {
 });
 $app->get('/boi/items/all/compressed', function () {
     global $items;
-    echo encode(items);
+    echo encode($items);
 });
 $app->get('/boi/items/all', function () {
     global $items;
     echo "<pre>";
-    echo encode(items);
+    echo encode($items);
     echo "</pre>";
 });
 $app->get('/boi/items', function () use ($app) {
