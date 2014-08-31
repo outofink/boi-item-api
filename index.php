@@ -4,8 +4,8 @@ require 'vendor/autoload.php';
 $app = new \Slim\Slim();
 function pencode($data) {return json_encode($data, JSON_UNESCAPED_SLASHES | JSON_PRETTY_PRINT);}
 function encode($data) {return json_encode($data, JSON_UNESCAPED_SLASHES);}
-function pprinter($data) {echo "<pre>";echo pencode($boi);echo "</pre>";}
-function printer($data) {echo "<pre>";echo encode($boi);echo "</pre>";}
+function pprinter($json) {echo "<pre>";echo pencode($json);echo "</pre>";}
+function printer($json) {echo "<pre>";echo encode($json);echo "</pre>";}
 
 $boi_json = file_get_contents("boi.json");
 $boi = json_decode($boi_json, true);
