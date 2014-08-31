@@ -2,7 +2,10 @@
 require 'vendor/autoload.php';
 
 $app = new \Slim\Slim();
-function encode($data) {return json_encode($data, JSON_UNESCAPED_SLASHES | JSON_PRETTY_PRINT);}
+function pencode($data) {return json_encode($data, JSON_UNESCAPED_SLASHES | JSON_PRETTY_PRINT);}
+function encode($data) {return json_encode($data, JSON_UNESCAPED_SLASHES);}
+function pprinter($data) {echo "<pre>";echo pencode($boi);echo "</pre>";}
+function printer($data) {echo "<pre>";echo encode($boi);echo "</pre>";}
 
 $boi_json = file_get_contents("boi.json");
 $boi = json_decode($boi_json, true);
@@ -17,23 +20,18 @@ $app->get('/boi', function () {
 
 $app->get('/boi/all/all/compressed', function () {
     global $boi;
-    echo encode($boi);
+    printer($boi);
 });
 $app->get('/boi/all/all', function () {
-    global $boi;
-    echo "<pre>";
-    echo encode($boi);
-    echo "</pre>";
+    pprinter($boi);
 });
 $app->get('/boi/items/all/compressed', function () {
     global $items;
-    echo encode($items);
+    printer($items);
 });
 $app->get('/boi/items/all', function () {
     global $items;
-    echo "<pre>";
-    echo encode($items);
-    echo "</pre>";
+    pprinter($items);
 });
 $app->get('/boi/items', function () use ($app) {
     $app->redirect('/boi/items/all');
@@ -45,10 +43,7 @@ $app->get('/boi/items/:id', function ($id) {
     global $items;
     $newid = intval($id)-1;
     if ($newid >= 0 and $newid < 198) {
-        $itembyid = encode($items[$newid]);
-        echo "<pre>";
-        echo $itembyid;
-        echo "</pre>";
+        pprinter($items[$newid]);
     }
     else {
         echo "Invalid id.";
