@@ -64,7 +64,7 @@ $app->get('/boi/all', function () use ($app) {
     $app->redirect('/boi/all/all');
 });
 $app->get('/boi/items/:id', function ($id) {
-    if (is_integer($id)) {
+    if (is_int($id)) {
         global $items;
         $newid = intval($id)-1;
         if ($newid >= 0 and $newid < 198) {
