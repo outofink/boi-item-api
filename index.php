@@ -77,5 +77,5 @@ $app->get('/boi/items/:id', function ($id) use ($app){
         echo "Invalid id.";
         $app->redirect('/boi/items/name/'+$id);
     }
-});
+})->conditions(array('id' => '^["name"]');
 $app->run();
