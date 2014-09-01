@@ -7,7 +7,10 @@ function pprint($json) {echo "<pre>";echo encode($json);echo "</pre>";}
 
 $boi_json = file_get_contents("boi.json");
 $boi = json_decode($boi_json, true);
+
 $items = $boi["items"];
+$trinkets = $boi["trinkets"];
+$cards = $boi["cards"];
 
 $app->get('/', function () {
     echo "Welcome to the Out of Ink Software API!";
@@ -32,8 +35,30 @@ $app->get('/boi/items/all', function () {
     global $items;
     pprint($items);
 });
+$app->get('/boi/trinkets/all/compressed', function () {
+    global $trinkets;
+    echo encode($trinkets);
+});
+$app->get('/boi/trinkets/all', function () {
+    global $trinkets;
+    pprint($trinkets);
+});
+$app->get('/boi/cards/all/compressed', function () {
+    global $cards;
+    echo encode($cards);
+});
+$app->get('/boi/cards/all', function () {
+    global $cards;
+    pprint($cards);
+});
 $app->get('/boi/items', function () use ($app) {
     $app->redirect('/boi/items/all');
+});
+$app->get('/boi/trinkets', function () use ($app) {
+    $app->redirect('/boi/trinkets/all');
+});
+$app->get('/boi/cards', function () use ($app) {
+    $app->redirect('/boi/cards/all');
 });
 $app->get('/boi/all', function () use ($app) {
     $app->redirect('/boi/all/all');
