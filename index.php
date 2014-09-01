@@ -12,11 +12,12 @@ $items = $boi["items"];
 $trinkets = $boi["trinkets"];
 $cards = $boi["cards"];
 
-$item_names = $items;
+$item_names = array_merge(array(), $items);
 foreach ($items_names as &$item) {
     $item = $item["title"];
 }
 unset($item);
+
 $app->get('/', function () {
     echo "Welcome to the Out of Ink Software API!";
 });
