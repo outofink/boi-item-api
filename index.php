@@ -64,18 +64,16 @@ $app->get('/boi/all', function () use ($app) {
     $app->redirect('/boi/all/all');
 });
 $app->get('/boi/items/:id', function ($id) {
-    if (is_int($id)) {
-        global $items;
-        $newid = intval($id)-1;
-        if ($newid >= 0 and $newid < 198) {
-            $itembyid = $items[$newid];
-            pprint($itembyid);
-        }
-        else {
-            echo "Invalid id.";
-        }
+    global $items;
+    $newid = intval($id)-1;
+    if ($newid >= 0 and $newid < 198) {
+        $itembyid = $items[$newid];
+        pprint($itembyid);
     }
-    else {$app->redirect('/boi/items/name/'+$id);}
+    else {
+        echo "Invalid id.";
+        $app->redirect('/boi/items/name/'+$id);
+    }
 });
 $app->get('/boi/items/name/:name', function ($name) {
     echo "name search";
