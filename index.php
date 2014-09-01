@@ -12,11 +12,11 @@ $items = $boi["items"];
 $trinkets = $boi["trinkets"];
 $cards = $boi["cards"];
 
-$item_names = array_merge(array(), $items);
-foreach ($items_names as &$item) {
-    $item = $item["title"];
-}
-unset($item);
+// $item_names = array_merge(array(), $items);
+// foreach ($items_names as &$item) {
+//     $item = $item["title"];
+// }
+// unset($item);
 
 $app->get('/', function () {
     echo "Welcome to the Out of Ink Software API!";
@@ -79,8 +79,13 @@ $app->get('/boi/items/:id', function ($id){
         pprint($itembyid);
     }
     else {
-        print_r($item_names);
-
+        global $items;
+        $item_names = array_merge(array(), $items);
+        foreach ($items_names as &$item) {
+            $item = $item["title"];
+            echo $item;
+        }
+        unset($item);
     }
 });
 $app->run();
