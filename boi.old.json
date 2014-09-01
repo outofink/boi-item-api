@@ -1,0 +1,2001 @@
+{
+    "items": [
+        {
+            "title": "The Sad Onion",
+            "itemid": "1",
+            "special": "yes",
+            "stats": [
+                "+0.7 Tears Up"
+            ]
+        },
+        {
+            "title": "The Inner Eye",
+            "itemid": "2",
+            "special": "yes",
+            "stats": [
+                "Tears now shoot three at a time (Triple shot)",
+                "Tears down significantly: (delay = delay * 2.1 + 3)",
+                "This essentially lowers your tear rate by about 2 tears per second",
+                "Due to how this item is applied in the source code, this is a very rare case where the order in which you take items does actually matter. Taking Inner Eye and Polyphemus in different orders will yield different results"
+            ]
+        },
+        {
+            "title": "Spoon Bender",
+            "itemid": "3",
+            "special": "yes",
+            "stats": [
+                "Gives the player homing shots"
+            ]
+        },
+        {
+            "title": "Max's Head",
+            "itemid": "4",
+            "special": "yes",
+            "stats": [
+                "+0.5 Damage",
+                "x1.5 damage multiplier (does not stack with the multipliers that Book of Belial with Blood of the Martyr and Magic Mushroom give)",
+                "The x1.5 multiplier from Max's Head does not work with Mom's Knife, Brimstone, Technology and Kamikaze Flies",
+                "Gives shots a significant knockback effect"
+            ]
+        },
+        {
+            "title": "My Reflection",
+            "itemid": "5",
+            "special": "yes",
+            "stats": [
+                "Gives tears a boomerang effect",
+                "Synergises well with the Lump of Coal item and a high range stat, due to the fact that tears stay airborne longer"
+            ]
+        },
+        {
+            "title": "Number One",
+            "itemid": "6",
+            "special": "yes",
+            "stats": [
+                "+1.5 Tears Up",
+                "Range Down (-13 Range)",
+                "You essentially end up with an extremely high fire rate but a very low tear range",
+                "Picking up this item turns any identified 'Range Down' pills into 'Range up' pills"
+            ]
+        },
+        {
+            "title": "Blood of The Martyr",
+            "itemid": "7",
+            "special": "yes",
+            "stats": [
+                "+1 Damage",
+                "Adds a x1.5 damage multiplier ONLY if the player also has The Devil Card/Book of Belial effect (does not stack with the multipliers that Max's Head and Magic Mushroom give)",
+                "The x1.5 multiplier from Blood of The Martyr and The Book of Belial does not work with Mom's Knife, Brimstone, Technology and Kamikaze Flies",
+                "Can appear in the Angel Room"
+            ]
+        },
+        {
+            "title": "Brother Bobby",
+            "itemid": "8",
+            "special": "yes",
+            "stats": [
+                "A familiar which follows the player and shoots tears with 3.5 damage",
+                "An item commonly found in the Devil Room"
+            ]
+        },
+        {
+            "title": "Skatole",
+            "itemid": "9",
+            "special": "no",
+            "stats": [
+                "All fly enemies are no longer aggressive towards the player",
+                "1/13 chance to see this item appear from the shell game, with a further 1/3 chance to win it (1/3 chance becomes 1/2 with the Lucky Foot)"
+            ]
+        },
+        {
+            "title": "Halo of Flies",
+            "itemid": "10",
+            "special": "no",
+            "stats": [
+                "Gives the player two orbital flies which will circle the player, block incoming shots and damage any fly-type enemies on contact",
+                "Extremely useful for the final two boss fights which fire a lot of retaliation tears back at Isaac"
+            ]
+        },
+        {
+            "title": "1UP",
+            "itemid": "11",
+            "special": "no",
+            "stats": [
+                "Gives the player an extra life",
+                "Item found in the Secret Room item pool"
+            ]
+        },
+        {
+            "title": "Magic Mushroom",
+            "itemid": "12",
+            "special": "yes",
+            "stats": [
+                "+1 Health Up",
+                "+0.3 Damage",
+                "+0.3 Player Speed Up",
+                "+7.75 Range Up (Base range = 23)",
+                "Adds a x1.5 damage multiplier (does not stack with the multipliers that Book of Belial with Blood of the Martyr and Max's Head give)",
+                "The x1.5 multiplier from Magic Mush does not work with Mom's Knife, Brimstone, Technology and Kamikaze flies",
+                "Full heal",
+                "This item is falsely labelled as an 'All stats up' and does not increase the tears stat",
+                "Increases tear and player size, but does not affect the size of the hitbox"
+            ]
+        },
+        {
+            "title": "The Virus",
+            "itemid": "13",
+            "special": "no",
+            "stats": [
+                "Deals 30 poison damage per tick on contact with enemies and applies a poison effect which ticks 3 times for 3.5 damage",
+                "-0.1 Player Speed Down",
+                "The -10% speed from this item does not stack with the speed down from the Thick Odd Mushroom",
+                "25% chance to drop from the Lust mini boss"
+            ]
+        },
+        {
+            "title": "Roid Rage",
+            "itemid": "14",
+            "special": "no",
+            "stats": [
+                "+0.6 Player Speed Up",
+                "This item is falsely labelled as range stat up"
+            ]
+        },
+        {
+            "title": "&lt;3",
+            "itemid": "15",
+            "special": "no",
+            "stats": [
+                "+1 Health Up",
+                "Full Heal",
+                "25% chance to drop from the Gluttony mini boss"
+            ]
+        },
+        {
+            "title": "Raw Liver",
+            "itemid": "16",
+            "special": "yes",
+            "stats": [
+                "+2 Health Up",
+                "Full Heal",
+                "This item is only found in the Secret Room item pool"
+            ]
+        },
+        {
+            "title": "Skeleton Key",
+            "itemid": "17",
+            "special": "no",
+            "stats": [
+                "+99 Keys"
+            ]
+        },
+        {
+            "title": "A Dollar",
+            "itemid": "18",
+            "special": "no",
+            "stats": [
+                "+99 Coins",
+                "Can only drop when breaking Slot Machines"
+            ]
+        },
+        {
+            "title": "Boom!",
+            "itemid": "19",
+            "special": "no",
+            "stats": [
+                "+10 Bombs"
+            ]
+        },
+        {
+            "title": "Transcendence",
+            "itemid": "20",
+            "special": "no",
+            "stats": [
+                "Gives the player the ability to fly",
+                "Has a 2/3 chance to be in the Secret Room item pool for each game"
+            ]
+        },
+        {
+            "title": "The Compass",
+            "itemid": "21",
+            "special": "no",
+            "stats": [
+                "Shows all icons on the map (Treasure room, shop, boss room etc.",
+                "Does not show the layout of the map itself",
+                "The map icons do not show if the current floor has the 'Curse of Darkness' effect"
+            ]
+        },
+        {
+            "title": "Lunch",
+            "itemid": "22",
+            "special": "no",
+            "stats": [
+                "+1 Health Up"
+            ]
+        },
+        {
+            "title": "Dinner",
+            "itemid": "23",
+            "special": "no",
+            "stats": [
+                "+1 Health Up"
+            ]
+        },
+        {
+            "title": "Dessert",
+            "itemid": "24",
+            "special": "no",
+            "stats": [
+                "+1 Health Up"
+            ]
+        },
+        {
+            "title": "Breakfast",
+            "itemid": "25",
+            "special": "no",
+            "stats": [
+                "+1 Health Up"
+            ]
+        },
+        {
+            "title": "Rotten Meat",
+            "itemid": "26",
+            "special": "no",
+            "stats": [
+                "+1 Health Up"
+            ]
+        },
+        {
+            "title": "Wooden Spoon",
+            "itemid": "27",
+            "special": "no",
+            "stats": [
+                "+0.3 Player Speed Up"
+            ]
+        },
+        {
+            "title": "The Belt",
+            "itemid": "28",
+            "special": "no",
+            "stats": [
+                "+0.3 Player Speed Up"
+            ]
+        },
+        {
+            "title": "Mom's Underwear",
+            "itemid": "29",
+            "special": "no",
+            "stats": [
+                "+7.75 Range Up (Base range = 23)"
+            ]
+        },
+        {
+            "title": "Mom's Heels",
+            "itemid": "30",
+            "special": "no",
+            "stats": [
+                "+7.75 Range Up (Base range = 23)"
+            ]
+        },
+        {
+            "title": "Mom's Lipstick",
+            "itemid": "31",
+            "special": "no",
+            "stats": [
+                "+7.75 Range Up (Base range = 23)"
+            ]
+        },
+        {
+            "title": "Wire Coat Hanger",
+            "itemid": "32",
+            "special": "no",
+            "stats": [
+                "+0.7 Tears Up"
+            ]
+        },
+        {
+            "title": "The Bible",
+            "itemid": "33",
+            "special": "no",
+            "stats": [
+                "Gives the player angel wings and the ability to fly for the current room",
+                "Instantly kills Mom's Foot and Mom's Heart when used",
+                "The Bible will instantly kill the player if used on the Satan or Isaac boss fights, unless you also have the Wafer",
+                "Can appear in the Angel Room",
+                "Recharge Time: 6 Rooms"
+            ]
+        },
+        {
+            "title": "The Book of Belial",
+            "itemid": "34",
+            "special": "no",
+            "stats": [
+                "+2 Damage",
+                "Adds a x1.5 damage multiplier ONLY if the player also has Blood of the Martyr",
+                "The x1.5 multiplier from Book of Belial + Blood of The Martyr does not work with Mom's Knife, Brimstone, Technology and Kamikaze Flies",
+                "Gives a 25% higher chance to spawn a Devil Room while holding this item",
+                "Starting as Judas with the Book of Belial will give you the extra chance for a devil room but will not increase your chance of seeing a library",
+                "Recharge Time: 3 Rooms"
+            ]
+        },
+        {
+            "title": "The Necronomicon",
+            "itemid": "35",
+            "special": "no",
+            "stats": [
+                "Deals 40 damage to all enemies in current the room",
+                "An item sometimes found in the Devil Room",
+                "Recharge Time: 6 Rooms"
+            ]
+        },
+        {
+            "title": "The Poop",
+            "itemid": "36",
+            "special": "no",
+            "stats": [
+                "Drops a poop on the floor",
+                "The poop can be used to block enemies and has a chance to drop pickups (i.e. coins, hearts), just like normal poops can",
+                "The ??? character starts with this item",
+                "Recharge Time: 1 Rooms"
+            ]
+        },
+        {
+            "title": "Mr. Boom",
+            "itemid": "37",
+            "special": "no",
+            "stats": [
+                "Drops a single large bomb below the player which does 110 damage",
+                "25% chance to drop from the Wrath mini boss",
+                "Recharge Time: 2 Rooms"
+            ]
+        },
+        {
+            "title": "Tammy's Head",
+            "itemid": "38",
+            "special": "no",
+            "stats": [
+                "Fires 10 tears in a circle around the player",
+                "The tears fired from Tammmy's Head will alter with other tear effects like Homing or Tooth shot",
+                "Can be found in Golden Chests",
+                "Recharge Time: 1 Rooms"
+            ]
+        },
+        {
+            "title": "Mom's Bra",
+            "itemid": "39",
+            "special": "no",
+            "stats": [
+                "Freezes all enemies in the room for 5 seconds",
+                "Recharge Time: 3 Rooms"
+            ]
+        },
+        {
+            "title": "Kamikaze",
+            "itemid": "40",
+            "special": "no",
+            "stats": [
+                "Causes an explosion near the player which damages all enemies in close proximity for 40 damage per use. The explosion makes the player take 1 heart of damage",
+                "There is a known glitch with this item where if the player hugs a wall and uses it, they won't take damage but the explosion will still occur",
+                "Recharge Time: Instant"
+            ]
+        },
+        {
+            "title": "Mom's Pad",
+            "itemid": "41",
+            "special": "no",
+            "stats": [
+                "Causes all enemies to flee from the player for a short time",
+                "Recharge Time: 3 Rooms"
+            ]
+        },
+        {
+            "title": "Bob's Rotten Head",
+            "itemid": "42",
+            "special": "no",
+            "stats": [
+                "A poison bomb which can be thrown to cause 53.5 damage (as well as another hit equal to one tear of damage) to enemies and leaves a poison effect on the enemy, doing 7 damage per tick",
+                "Damage done from this item is affected by items which increase your damage stat, much like how damage scales with Ipecac and Dr. Fetus",
+                "Tear modifying effects such as My Reflection and Spoon Bender will affect the behaviour of Bob's Rotten Head",
+                "25% chance to drop from the Sloth mini boss",
+                "Recharge Time: 3 Rooms"
+            ]
+        },
+        {
+            "title": "Pills here!",
+            "itemid": "43",
+            "special": "no",
+            "stats": []
+        },
+        {
+            "title": "Teleport!",
+            "itemid": "44",
+            "special": "no",
+            "stats": [
+                "Teleports the player to a random room",
+                "This item cannot teleport you to the I AM ERROR room",
+                "Recharge Time: 2 Rooms"
+            ]
+        },
+        {
+            "title": "Yum Heart",
+            "itemid": "45",
+            "special": "no",
+            "stats": [
+                "Heals the player for one whole heart",
+                "Maggy starts with this item",
+                "14.3% chance to drop from the Super Lust mini boss",
+                "Recharge Time: 4 Rooms"
+            ]
+        },
+        {
+            "title": "Lucky Foot",
+            "itemid": "46",
+            "special": "no",
+            "stats": [
+                "All pills will now have positive or neutral effects",
+                "Increases chance to win shell game (55%, up from 33%)",
+                "Increased chance to win an item from a Demon Beggar (33%, up from 25%)",
+                "Increased chance to win at a slot machine",
+                "Removes the chance to get a fortune from a fortune teller machine (0% down from 65%)",
+                "Increased chance to get a pickup when clearing a room",
+                "In the 1.5 version of the game (Most unholy edition), there is a slight nerf to the Lucky foot effect which gives increased chance of winning at a slot machine"
+            ]
+        },
+        {
+            "title": "Doctor's Remote",
+            "itemid": "47",
+            "special": "no",
+            "stats": [
+                "A one time use of Epic Fetus. A target is placed on the floor which can be controlled with the arrow keys or mouse. After several seconds a missile hits the target and does 80 damage to anything within range",
+                "You start with this item in the 'The Doctor's Revenge' challenge",
+                "Recharge Time: 3 Rooms"
+            ]
+        },
+        {
+            "title": "Cupid's Arrow",
+            "itemid": "48",
+            "special": "yes",
+            "stats": [
+                "Gives the player piercing shots which will travel through all enemies. This also removes the knockback effect which is usually give from tear contact",
+                "Shots will not travel through rocks with this item"
+            ]
+        },
+        {
+            "title": "Shoop Da Whoop",
+            "itemid": "49",
+            "special": "no",
+            "stats": [
+                "One time use of a Brimstone style laser, which can be fired in any direction causing 22 damage per tick, for up to a maximum of 4 ticks per laser",
+                "The Brimstone glitch (Brimsnapping) does not work with this item",
+                "Items which increase your damage do not affect this item",
+                "25% chance to drop from the Envy mini boss",
+                "Recharge Time: 3 Rooms"
+            ]
+        },
+        {
+            "title": "Steven",
+            "itemid": "50",
+            "special": "yes",
+            "stats": [
+                "+1 Damage",
+                "1/6 chance to drop from the 'Steven' boss fight or 100% chance if you already have the 'Little Steve' item",
+                "Killing the smaller part of Steven first does not increase the chances for this item to drop",
+                "Can also appear in golden chests"
+            ]
+        },
+        {
+            "title": "Pentagram",
+            "itemid": "51",
+            "special": "yes",
+            "stats": [
+                "+1 Damage",
+                "Adds a 20% chance for a Devil Deal Room to spawn",
+                "Adds an extra 10% chance for a Devil Deal Room to spawn if you somehow picked up a second one"
+            ]
+        },
+        {
+            "title": "Dr. Fetus",
+            "itemid": "52",
+            "special": "yes",
+            "stats": [
+                "Player's shots are now Bombs instead of tears which do 60.5 damage as a base and increase slightly with upgrades in the damage stat",
+                "Picking up the Mr. Mega item will turn your bombs into super troll bombs",
+                "Picking up the Bobby Bomb item will cause Dr. Fetus bombs to home towards enemies",
+                "Augments the item pool with 'Bobby - Bomb' and 'Mr. Mega', adding six of each item"
+            ]
+        },
+        {
+            "title": "Magneto",
+            "itemid": "53",
+            "special": "no",
+            "stats": [
+                "Pick-ups on the floor move towards the player"
+            ]
+        },
+        {
+            "title": "Treasure Map",
+            "itemid": "54",
+            "special": "no",
+            "stats": [
+                "Reveals the entire map layout for every floor including the secret room",
+                "Does not show icons for any other rooms",
+                "The map does not show if the current floor has the 'Curse of Darkness' effect",
+                "Item found in the Shop Room item pool"
+            ]
+        },
+        {
+            "title": "Mom's Eye",
+            "itemid": "55",
+            "special": "yes",
+            "stats": [
+                "Player now also has a 50% chance to fire a tear out the back of their head at the same time as firing a normal one",
+                "This item is falsely labelled as a tear stat up. The rate of tears coming from the front of Isaac does not increase as a result of picking up this item"
+            ]
+        },
+        {
+            "title": "Lemon Mishap",
+            "itemid": "56",
+            "special": "no",
+            "stats": [
+                "Creates a pool of yellow 'lemonade' on the floor for 5 seconds which damages any enemies which come in contact with it rapidly for 8 damage per tick",
+                "Recharge Time: 2 Rooms"
+            ]
+        },
+        {
+            "title": "Distant Admiration",
+            "itemid": "57",
+            "special": "yes",
+            "stats": [
+                "Gives the player an attack fly which orbits Isaac at a wider radius than normal orbiting items and deals damage to any enemies which come in contact with it",
+                "The Distant Admiration fly does 5 damage per tick and does not scale with damage stat upgrades"
+            ]
+        },
+        {
+            "title": "Book of Shadows",
+            "itemid": "58",
+            "special": "no",
+            "stats": [
+                "Gives the player an invulnerability effect for 300 frames (10 seconds) on use",
+                "This item can allow the player to take free deals with the devil which are on sale for three Soul hearts, if the invulnerability effect is used",
+                "Recharge Time: 3 Rooms"
+            ]
+        },
+        {
+            "title": "Wiggle Worm",
+            "itemid": "59",
+            "special": "yes",
+            "stats": [
+                "Tears now move in a wave fashion across the screen",
+                "Will also cause things like Mom's Knife and Technology to wiggle across the screen",
+                "+0.4 Tears Up"
+            ]
+        },
+        {
+            "title": "The Ladder",
+            "itemid": "60",
+            "special": "no",
+            "stats": [
+                "Allows the player to walk over gaps with a width of one tile",
+                "Found in the Shop Room item pool"
+            ]
+        },
+        {
+            "title": "Tarot Card",
+            "itemid": "61",
+            "special": "no",
+            "stats": []
+        },
+        {
+            "title": "Charm of the Vampire",
+            "itemid": "62",
+            "special": "no",
+            "stats": [
+                "Heals the player for 1/2 a heart after every 13 enemies killed"
+            ]
+        },
+        {
+            "title": "The Battery",
+            "itemid": "63",
+            "special": "no",
+            "stats": [
+                "Gives the player one extra charge of their spacebar item after every 15 seconds spent in a hostile room (where the doors are shut) up to a total of three charges",
+                "Using a spacebar item will reset the charge counter, meaning an extra three charges can be achieved per room (A total of six)",
+                "Found in the Shop Room item pool"
+            ]
+        },
+        {
+            "title": "Steam Sale",
+            "itemid": "64",
+            "special": "no",
+            "stats": [
+                "Lowers the price of all items in the shop by 50%, rounded down to the nearest whole number",
+                "The item becomes useless after The Depths/Necropolis 2, due to the fact that there are no shops after this point",
+                "25% chance to drop from the Greed mini boss"
+            ]
+        },
+        {
+            "title": "Anarchist's Cookbook",
+            "itemid": "65",
+            "special": "no",
+            "stats": [
+                "Spawns six troll bombs at random locations around the room, which do 40 damage and will damage the player if in range of an explosion",
+                "25% chance to drop from the Pride mini boss",
+                "Recharge Time: 3 Rooms"
+            ]
+        },
+        {
+            "title": "The Hourglass",
+            "itemid": "66",
+            "special": "no",
+            "stats": [
+                "Slows all enemies and their projectiles in the current room for 230 frames (7 and 2/3 seconds)",
+                "Can cause 'The Fallen' boss to split into four parts if used when the boss hits 50%",
+                "Recharge Time: 2 Rooms"
+            ]
+        },
+        {
+            "title": "Sister Maggy",
+            "itemid": "67",
+            "special": "yes",
+            "stats": [
+                "A familiar which follows the player and shoots red tears",
+                "An item commonly found in the Devil Room",
+                "Sister Maggy's tears do 5 damage each and do not scale with damage stat upgrades"
+            ]
+        },
+        {
+            "title": "Technology",
+            "itemid": "68",
+            "special": "yes",
+            "stats": [
+                "The player's tears are now a laser shot with unlimited range, which only fire at right angles",
+                "Lasers pierce through enemies but not rocks in the environment",
+                "The Lump of Coal item simply gives +2 static damage for Technology",
+                "This item has a number of interesting synergies. Having either Ipecac, The Inner Eye, Mutant Spider or Polyphemus will increase damage by 300%"
+            ]
+        },
+        {
+            "title": "Chocolate Milk",
+            "itemid": "69",
+            "special": "no",
+            "stats": [
+                "The player can now charge shots by holding down the arrow key and shots will therefore no longer automatically fire",
+                "Tear Delay = delay * 0.8. (20% Tears Stat Increase",
+                "The tears up from Chocolate Milk can exceed the max tear rate",
+                "It will now be necessary to rapidly press buttons to fire tears at the highest possible rate",
+                "A fully charged shot is equivalent to +7.8 damage"
+            ]
+        },
+        {
+            "title": "Growth Hormones",
+            "itemid": "70",
+            "special": "yes",
+            "stats": [
+                "+1 Damage",
+                "+0.4 Player Speed Up"
+            ]
+        },
+        {
+            "title": "Mini Mush",
+            "itemid": "71",
+            "special": "no",
+            "stats": [
+                "+0.3 Player Speed Up",
+                "+3.25 Range Up (Base range = 23)",
+                "Shrinks the player size but doesn't change the size of the hitbox"
+            ]
+        },
+        {
+            "title": "Rosary",
+            "itemid": "72",
+            "special": "no",
+            "stats": [
+                "Gives the player three soul hearts",
+                "Augments the shop item pool, adding 7 instances of 'The Bible' item",
+                "Picking up this item will show a message saying \"Faith Up\" in the bottom corner. Faith up is not an actual stat within the game and does not increase your chance of a God Room"
+            ]
+        },
+        {
+            "title": "Cube of Meat",
+            "itemid": "73",
+            "special": "no",
+            "stats": [
+                "This item drops every time after defeating Famine, Pestilence, War or Death",
+                "A single cube of meat will give the player an orbital which block shots and damage anything it comes into contact with for 7 damage per tick",
+                "Picking up a second cube of meat turns it into a floating meat head which shoots red tears for 5 damage, does 7 damage on contact and blocks incoming shots",
+                "A third cube of meat turns the head into a small meat boy who walks around and damages enemies for base damage (3.5) but no longer shoots projectiles",
+                "A fourth and final cube of meat increases the meat boy's size and damage (5.5 damage)",
+                "Any further cubes of meat obtained will restart the process starting with a new orbital cube"
+            ]
+        },
+        {
+            "title": "A Quarter",
+            "itemid": "74",
+            "special": "no",
+            "stats": [
+                "+25 Coins",
+                "14.3% chance to drop from the Super Greed mini boss"
+            ]
+        },
+        {
+            "title": "PhD",
+            "itemid": "75",
+            "special": "no",
+            "stats": [
+                "All pills now have a positive or neutral effect",
+                "Has a 1/150 chance to identify a pill every frame (30 times per second)",
+                "Causes the blood donation machine to drop an extra coin",
+                "PhD also removes the chance for any unidentified pills to become telepills. Pills which are already identified as telepills will not be affected",
+                "Heals two hearts of health"
+            ]
+        },
+        {
+            "title": "X-Ray Vision",
+            "itemid": "76",
+            "special": "no",
+            "stats": [
+                "Reveals the entrance to both the Secret room and the super-secret room. This item also automatically opens the hole, removing the need for bombs to enter"
+            ]
+        },
+        {
+            "title": "My Little Unicorn",
+            "itemid": "77",
+            "special": "no",
+            "stats": [
+                "Gives the player temporary invincibility and damages enemies upon contact for 40 damage each tick",
+                "Recharge Time: 6 Rooms"
+            ]
+        },
+        {
+            "title": "Book of Revelations",
+            "itemid": "78",
+            "special": "no",
+            "stats": [
+                "Adds one Soul heart upon use",
+                "Increases the chance for a Devil Deal Room to spawn by 35% while held",
+                "If you use the Book of Revelations and you are on a non-XL floor in the Womb or before, you will get one of the horsemen as your boss",
+                "Recharge Time: 6 Rooms"
+            ]
+        },
+        {
+            "title": "The Mark",
+            "itemid": "79",
+            "special": "no",
+            "stats": [
+                "+1 Damage",
+                "+0.2 Player Speed Up",
+                "+1 Soul heart",
+                "An item commonly found in the Devil Room"
+            ]
+        },
+        {
+            "title": "The Pact",
+            "itemid": "80",
+            "special": "no",
+            "stats": [
+                "+0.5 Damage",
+                "+0.7 Tears Up",
+                "+2 Soul hearts",
+                "An item commonly found in the Devil Room"
+            ]
+        },
+        {
+            "title": "Dead Cat",
+            "itemid": "81",
+            "special": "no",
+            "stats": [
+                "Health is set to 1 and you gain an extra 8 lives. You can increase your heart containers as normal, however each time you die it will be reset to 1 again",
+                "This is one of the four items which counts towards being Guppy",
+                "Each death still adds to the death counter on the stats page in game",
+                "1/50 chance to get this item from a Red Chest",
+                "14.3% chance to drop from the Super Pride mini boss",
+                "An item commonly found in the Devil Room"
+            ]
+        },
+        {
+            "title": "Lord of the Pit",
+            "itemid": "82",
+            "special": "no",
+            "stats": [
+                "Gives the player demon wings and the ability to fly over all obstacles",
+                "+0.3 Player Speed Up"
+            ]
+        },
+        {
+            "title": "The Nail",
+            "itemid": "83",
+            "special": "no",
+            "stats": [
+                "Adds one soul heart upon use and allows the player to crush rocks by walking over them",
+                "+0.7 Damage Modifier when activated",
+                "-0.18 Player Speed down when activated",
+                "Deals 40 damage on contact with enemies, in exactly the same way the Unicorn Horn damage on contact effect works",
+                "An item commonly found in the Devil Room",
+                "Recharge Time: 6 Rooms"
+            ]
+        },
+        {
+            "title": "We Need To Go Deeper",
+            "itemid": "84",
+            "special": "no",
+            "stats": [
+                "Spawns a trapdoor at the player's feet which allows them to travel to the next floor without beating the boss",
+                "Recharge Time: 6 Rooms"
+            ]
+        },
+        {
+            "title": "Deck of Cards",
+            "itemid": "85",
+            "special": "no",
+            "stats": [
+                "Gives the player a random Tarot card when activated",
+                "Recharge Time: 6 Rooms"
+            ]
+        },
+        {
+            "title": "Monstro's Tooth",
+            "itemid": "86",
+            "special": "no",
+            "stats": [
+                "Upon activation spawns a friendly Monstro who jumps on a random enemy and does damage 120 to it",
+                "Cannot be used in the Monstro boss fights",
+                "Cannot be used if there are no enemies in the room",
+                "Recharge Time: 3 Rooms"
+            ]
+        },
+        {
+            "title": "Loki's Horns",
+            "itemid": "87",
+            "special": "yes",
+            "stats": [
+                "Normal shots now also give the player a 1/8 chance for shots to fire in all four cardinal directions",
+                "Falsely labelled as a fire rate stat up for normal tears"
+            ]
+        },
+        {
+            "title": "Lil' Chubby",
+            "itemid": "88",
+            "special": "yes",
+            "stats": [
+                "Adds a follower who charges forward every ~4 seconds in the same direction as the player's tears. Lil' Chubby deals 3.5 damage in rapid succession, resulting in a significant amount of damage",
+                "Behaviour is identical to the projectiles used by the 'Chubber' enemy (Wrath of the Lamb variant of Vis)"
+            ]
+        },
+        {
+            "title": "Spider's Bite",
+            "itemid": "89",
+            "special": "yes",
+            "stats": [
+                "Isaac's tears now have a 1/4 chance upon hitting enemies to slow enemy speed and enemy shot speed for 2 seconds",
+                "Item found in the Secret Room item pool"
+            ]
+        },
+        {
+            "title": "The Small Rock",
+            "itemid": "90",
+            "special": "yes",
+            "stats": [
+                "+1 Damage",
+                "+0.2 Tears Up",
+                "-0.2 Player Speed Down",
+                "Getting a second small rock will increase your tear rate and reduce your player speed again, however the damage up does not stack"
+            ]
+        },
+        {
+            "title": "Spelunker Hat",
+            "itemid": "91",
+            "special": "no",
+            "stats": [
+                "Reveals the location of both the Secret Room and the super-secret Room",
+                "Upon entering a room adjacent to one of the Secret Rooms, the discovery sound effect will play",
+                "Bombs are still needed to enter, unlike the x-ray vision item"
+            ]
+        },
+        {
+            "title": "Super Bandage",
+            "itemid": "92",
+            "special": "yes",
+            "stats": [
+                "+1 Health Up",
+                "+2 Soul hearts"
+            ]
+        },
+        {
+            "title": "The Gamekid",
+            "itemid": "93",
+            "special": "no",
+            "stats": [
+                "Isaac turns into Pacman, making him invincible and causes 40 damage on contact with enemies. Everytime you 'eat' an enemy you regain some health",
+                "Enemies will also flee from the player for the duration of the effect",
+                "Recharge Time: 6 Rooms"
+            ]
+        },
+        {
+            "title": "Sack of Pennies",
+            "itemid": "94",
+            "special": "no",
+            "stats": [
+                "A coin bag follows the player and drops a coin every 2 rooms",
+                "The frequency at which this item drops coins is decreased if you have any of the following items: Little CHAD, The Relic, Bomb Bag"
+            ]
+        },
+        {
+            "title": "Robo-Baby",
+            "itemid": "95",
+            "special": "yes",
+            "stats": [
+                "A familiar which follows the player and shoots lasers, similar to the Technology 1 item",
+                "Robo-baby's laser does 3 damage and does not scale with damage stat upgrades"
+            ]
+        },
+        {
+            "title": "Little C.H.A.D",
+            "itemid": "96",
+            "special": "no",
+            "stats": [
+                "A follower that drops half a red heart every 3 rooms",
+                "The frequency at which this item drops hearts is decreased if you have any of the following items: Sack of Pennies, The Relic, Bomb Bag",
+                "If you're fighting the C.H.A.D. boss and don't have Little Chad, you get it"
+            ]
+        },
+        {
+            "title": "The Book of Sin",
+            "itemid": "97",
+            "special": "no",
+            "stats": [
+                "Spawns a random heart, key, coin, bomb, pill or Tarot card upon use",
+                "Recharge Time: 4 Rooms"
+            ]
+        },
+        {
+            "title": "The Relic",
+            "itemid": "98",
+            "special": "no",
+            "stats": [
+                "A blue cross follows the player and drops a Soul heart every 5 rooms",
+                "The frequency at which this item drops soul hearts is decreased if you have any of the following items: Sack of Pennies, Little CHAD, Bomb Bag",
+                "Can appear in the Angel Room"
+            ]
+        },
+        {
+            "title": "Little Gish",
+            "itemid": "99",
+            "special": "yes",
+            "stats": [
+                "A familiar which follows the player and shoots black tar tears, which slows enemy movement and projectile speed for a few seconds",
+                "If you're fighting Gish and don't have Little Gish, you get it",
+                "Little Gish's tears do 3.5 damage each and do not scale with damage"
+            ]
+        },
+        {
+            "title": "Little Steve",
+            "itemid": "100",
+            "special": "yes",
+            "stats": [
+                "A familiar which follows the player and shoots homing tears with the spoon bender effect",
+                "If you're fighting the Steven boss and don't have either Little Steve or the 'Steven' item, you have a 5/6 chance to get Little Steve",
+                "Little Steve's tears do 3.5 damage each and do not scale with damage stat upgrades"
+            ]
+        },
+        {
+            "title": "The Halo",
+            "itemid": "101",
+            "special": "yes",
+            "stats": [
+                "+1 Health Up",
+                "+0.3 Damage",
+                "+0.2 Tears Up",
+                "+2.75 Range Up (Base range = 23)",
+                "+0.3 Player Speed Up",
+                "This item does in fact give range up, contrary to what other sources claim",
+                "Can appear in the Angel Room item pool even before it is unlocked"
+            ]
+        },
+        {
+            "title": "Mom's Bottle of Pills",
+            "itemid": "102",
+            "special": "no",
+            "stats": [
+                "Upon activation this item gives one of six random pills to the player",
+                "Recharge Time: 6 Rooms"
+            ]
+        },
+        {
+            "title": "The Common Cold",
+            "itemid": "103",
+            "special": "yes",
+            "stats": [
+                "Shots now have a 1/4 chance to poison enemies for a few seconds, dealing 2 damage per tick",
+                "The chance for the poison effect to activate stacks with other items which give tears a chance to apply poison to enemies"
+            ]
+        },
+        {
+            "title": "The Parasite",
+            "itemid": "104",
+            "special": "yes",
+            "stats": [
+                "Player's tears now split into two upon contact with anything"
+            ]
+        },
+        {
+            "title": "The Dice",
+            "itemid": "105",
+            "special": "no",
+            "stats": [
+                "Upon use, any 'pedestal' items will be re-rolled into another item that corresponds with that room's item pool. Pedestal items include items from the shop, devil deal roome, angel room, boss room, treasure room or secret room",
+                "The Dice does not re-roll trinkets or other collectables which do not spawn on a 'pedestal'",
+                "Re-rolled items will pick from the item pool corresponding to the type of room it is in. This includes curse rooms which can re-roll items into Devil or God items",
+                "Recharge Time: 3 Rooms"
+            ]
+        },
+        {
+            "title": "Mr. Mega",
+            "itemid": "106",
+            "special": "no",
+            "stats": [
+                "+5 Bombs",
+                "All bombs dropped are now larger and do more damage (+50) and have a larger explosion",
+                "This item will increase damage of Dr. Fetus bombs",
+                "14.3% chance to drop from the Super Wrath mini boss"
+            ]
+        },
+        {
+            "title": "The Pinking Shears",
+            "itemid": "107",
+            "special": "no",
+            "stats": [
+                "Cuts Isaac's head from his body for the current room",
+                "The player can now fly for the current room and the decapitated body will attack for 7 damage per tick to any enemies in range",
+                "Recharge Time: 6 Rooms"
+            ]
+        },
+        {
+            "title": "The Wafer",
+            "itemid": "108",
+            "special": "yes",
+            "stats": [
+                "Lowers all damage taken by half, rounding up to the nearest half-heart",
+                "This item becomes most effective in the Womb/Utero and any floor after it, where all damage taken is usually a whole heart if the player does not have The Wafer"
+            ]
+        },
+        {
+            "title": "Money = Power",
+            "itemid": "109",
+            "special": "yes",
+            "stats": [
+                "Damage up depending on the number of coins the player currently has",
+                "Damage Modifier = coins * 0.04",
+                "At 99 coins, this item gives +3.96 Damage"
+            ]
+        },
+        {
+            "title": "Mom's Contacts",
+            "itemid": "110",
+            "special": "yes",
+            "stats": [
+                "Shots now have a 1/5 chance to freeze enemies solid for a few seconds",
+                "+2.75 Range Up (Base range = 23)"
+            ]
+        },
+        {
+            "title": "The Bean",
+            "itemid": "111",
+            "special": "no",
+            "stats": [
+                "Upon activation, all enemies within close proximity take 5 damage and become poisoned for 3.5 damage per tick",
+                "Has an identical effect to the 'Bad Gas' Pill",
+                "Recharge Time: 1 Rooms"
+            ]
+        },
+        {
+            "title": "Guardian Angel",
+            "itemid": "112",
+            "special": "no",
+            "stats": [
+                "Gives the player an orbital angel which blocks shots and increases the speed of all other orbitals by x1.5 (e.g. Pretty Fly or Cube of Meat)",
+                "The Guardian Angel will also do 7 damage per tick if it comes into contact with any enemies",
+                "Can appear in the Angel Room"
+            ]
+        },
+        {
+            "title": "Demon Baby",
+            "itemid": "113",
+            "special": "no",
+            "stats": [
+                "A familiar which follows the player and automatically fires tears at any enemies within range",
+                "The Demon Baby's tears do 3 damage each and do not scale with damage stat increases however the rate of tears is higher than usual"
+            ]
+        },
+        {
+            "title": "Mom's Knife",
+            "itemid": "114",
+            "special": "no",
+            "stats": [
+                "The player replaces their ability to fire tears with a Knife which can be charged and released in a boomerang style",
+                "Base damage with Mom's Knife = 21 damage for charged shots and 7 damage for uncharged shots",
+                "The knife can do damage without even being charged, however charged shots do x3 damage that uncharged shots do",
+                "The knife's damage does not increase with increases to the range stat, as it was originally though",
+                "Mom's knife over-rides Brimstone"
+            ]
+        },
+        {
+            "title": "Ouija Board",
+            "itemid": "115",
+            "special": "yes",
+            "stats": [
+                "Gives the player spectral tears, which will travel through rocks or obstacles",
+                "This effect includes poop and fires, meaning it takes longer to extinguish or break them",
+                "An item commonly found in the Devil Room"
+            ]
+        },
+        {
+            "title": "9 Volt",
+            "itemid": "116",
+            "special": "no",
+            "stats": [
+                "Upon using a spacebar item, two bars of charge will automatically be re-charged",
+                "Upon pickup, the current spacebar item will be fully charged if it isn't already",
+                "Item found in the Shop Room item pool"
+            ]
+        },
+        {
+            "title": "Dead Bird",
+            "itemid": "117",
+            "special": "no",
+            "stats": [
+                "One of Eve's starting item",
+                "When the player takes damage, the bird will start attacking nearby enemies for the current room, doing very frequent attacks at 2 damage each"
+            ]
+        },
+        {
+            "title": "Brimstone",
+            "itemid": "118",
+            "special": "no",
+            "stats": [
+                "Standard tears are replaced with the ability to charge and fire a laser that penetrates anything in its path and does 300% damage",
+                "The laser can only be shot when fully charged unless you have the Chocolate Milk item",
+                "The Lump of Coal item will simply give +2 damage to this item",
+                "It is possible to charge the beam before entering the next room, meaning the first shot can be immediately released",
+                "There is a known glitch with Brimstone where if you spam the arrow key after releasing the laser, it can do significantly more damage. This glitch appears to make Brimstone hit the target between 3-5 times, as opposed to the normal 2 ticks",
+                "An item commonly found in the Devil Room"
+            ]
+        },
+        {
+            "title": "Blood Bag",
+            "itemid": "119",
+            "special": "no",
+            "stats": [
+                "+1 Health Up",
+                "+0.3 Player Speed Up",
+                "Heals 4 whole red hearts",
+                "1/30 chance to spawn from a broken Blood Donation Machine if you have not picked up the IV Bag before"
+            ]
+        },
+        {
+            "title": "Odd Mushroom (Thin)",
+            "itemid": "120",
+            "special": "no",
+            "stats": [
+                "+1.7 Tears Up (Very high rate of fire)",
+                "+0.3 Player Speed Up",
+                "Damage down in an interesting way: 'damage = (damage * 0.9) - 0.4'. This is effectively -1 damage at lower damage stats"
+            ]
+        },
+        {
+            "title": "Odd Mushroom (Thick)",
+            "itemid": "121",
+            "special": "no",
+            "stats": [
+                "+1 Health Up",
+                "+0.3 Damage",
+                "+2.75 Range Up (Base range = 23)",
+                "-0.1 Player Speed Down",
+                "The -10% speed from this item does not stack with the speed down from The Virus item",
+                "Increases the size of Isaac's head by 20%"
+            ]
+        },
+        {
+            "title": "Whore of Babylon",
+            "itemid": "122",
+            "special": "no",
+            "stats": [
+                "When the player only has only half a heart of health left, Isaac enters a curse state which adds player speed and damage",
+                "+2.16 Damage Modifier and +0.36 Player Speed Up if triggered by falling below 1 red heart in the current room",
+                "+1.5 Damage Modifier and +0.3 Player Speed Up if triggered in a different room but the item is still enabled",
+                "One of Eve's starting items"
+            ]
+        },
+        {
+            "title": "Monster Manuel",
+            "itemid": "123",
+            "special": "no",
+            "stats": [
+                "Spawns a random familiar for the current room only",
+                "Possible followers include: Brother Bobby, Cube of Meat (2nd or 3rd form), Halo of Flies, Distant Admiration, Sister Maggy, Lil Chubby, Robo-Baby, Little Gish, Little Steve, Guardian Angel, Demon Baby, Forever Alone",
+                "Cannot spawn a follower you already have",
+                "Recharge Time: 4 Rooms"
+            ]
+        },
+        {
+            "title": "Dead Sea Scrolls",
+            "itemid": "124",
+            "special": "no",
+            "stats": [
+                "Upon use, uses a random activated item",
+                "The following item effects can occur: The Book of Belial, The Necronomicon, Mr. Boom!. Tammy's Head, Moms Bra, Kamikaze!, Mom's Pad, Bob's Rotten Head, Teleport!, Yum Heart, Lemon Mishap, Shoop Da Whoop!, Book of Shadows, Wiggle Worm, Anarchist Cookbook, The Hourglass, My Little Unicorn, Book of Revelations, The Nail, We Need To Go Deeper!, Deck of Cards, Monstro's Tooth, The Gamekid, The Book of Sin, Moms Bottle of Pills, The Pinking Shears",
+                "Recharge Time: 4 Rooms"
+            ]
+        },
+        {
+            "title": "Bobby - Bomb",
+            "itemid": "125",
+            "special": "no",
+            "stats": [
+                "+5 Bomb",
+                "All bombs now move towards the closest enemy",
+                "Bombs created by the Dr. Fetus item are also affected by this effect"
+            ]
+        },
+        {
+            "title": "Razor Blade",
+            "itemid": "126",
+            "special": "no",
+            "stats": [
+                "Deals damage to the player in exchange for damage stat increases",
+                "Each use gives the player +1.2 damage per use for the current room",
+                "Recharge Time: Instant"
+            ]
+        },
+        {
+            "title": "Forget me now",
+            "itemid": "127",
+            "special": "no",
+            "stats": [
+                "Upon activation, the current floor is refreshed with new rooms, monsters and items",
+                "Recharge Time: One time use"
+            ]
+        },
+        {
+            "title": "Forever Alone",
+            "itemid": "128",
+            "special": "no",
+            "stats": [
+                "Gives the player a blue attack fly that orbits from a long distance",
+                "The Forever Alone fly does 2 damage per tick and does not scale with damage stat changes",
+                "14.3% chance to drop from the Super Envy mini boss. Killing the blueberry enemy last is just a placebo effect and does not give more chance for this item"
+            ]
+        },
+        {
+            "title": "Bucket of Lard",
+            "itemid": "129",
+            "special": "no",
+            "stats": [
+                "+2 Health Up",
+                "-0.2 Player Speed Down",
+                "14.3% chance to drop from the Super Gluttony mini boss"
+            ]
+        },
+        {
+            "title": "A Pony",
+            "itemid": "130",
+            "special": "no",
+            "stats": [
+                "Gives the player the ability to fly over environmental obstacles e.g. Rocks, gaps, spikes",
+                "The Pony isn't a static speed increase, it sets player speed to 150% of base speed or the player's current speed stat, depending on which is higher",
+                "The active use of this item allows the player to become invincible and charge across the screen, dealing 40 damage to anything it comes into contact with",
+                "There is a known bug with this item where if the player activates the pony and doesn't move, they become invincible until they move again. You can still fire tears while using this glitch using the mouse click",
+                "If you're fighting the Headless Horseman boss and don't have this item, you get it",
+                "Recharge Time: 4 Rooms"
+            ]
+        },
+        {
+            "title": "Bomb Bag",
+            "itemid": "131",
+            "special": "no",
+            "stats": [
+                "A bag of bombs which follows the player and drops a random type of bomb every 3 rooms",
+                "The frequency at which this item drops bombs is decreased if you have any of the following items: Sack of Pennies, Little CHAD, The Relic",
+                "Dropped bomb can either be a single Bomb, two bombs or a troll bomb"
+            ]
+        },
+        {
+            "title": "A Lump of Coal",
+            "itemid": "132",
+            "special": "no",
+            "stats": [
+                "Damage up (and tear size) based on how long tears are in the air",
+                "+0.14 damage every frame on screen up to a maximum of 150 frames (5 seconds) for a total of +21 damage",
+                "If you have Brimstone or Technology, the Lump of Coal gives a flat +2 damage",
+                "Lump of Coal does nothing in terms of damage if you have Mom's Knife",
+                "Damage added through lump of coal is not affected by the damage formula, meaning it always gives +0.14 damage per frame",
+                "This item is a 100% drop chance from the Krampus boss, who has a 10% chance of spawning in any Devil Deal Room (40% if you've taken a devil deal during the current run)"
+            ]
+        },
+        {
+            "title": "Guppy's Paw",
+            "itemid": "133",
+            "special": "no",
+            "stats": [
+                "Converts one heart container into 3 Soul hearts",
+                "1/50 chance to spawn in a red chest",
+                "Counts as one item towards achieving Guppy state",
+                "Synergises well with the polaroid or other effects which activate when the player has less than one red heart",
+                "An item commonly found in the Devil Room",
+                "Recharge Time: Instant"
+            ]
+        },
+        {
+            "title": "Guppy's Tail",
+            "itemid": "134",
+            "special": "no",
+            "stats": [
+                "Upon clearing a room, the tail gives 1/3 chance to drop either a brown or gold chest with equal probability",
+                "If no chest spawns because of this item, there is a 1/3 chance that nothing will spawn after clearing the room. In other words, after clearing each room there is a 22% chance that any pickups drops will be negated (e.g. keys, bombs, coins etc.",
+                "An item commonly found in the Devil Room",
+                "1/25 chance to spawn in a red chest. 1/40 chance to spawn if you have not completed the '9 Deaths' challenge",
+                "Counts as one item towards achieving Guppy state",
+                "Picking up more than one Guppy's Tail item counts multiple times towards achieving Guppy state. This is the only Guppy item out of the four which can count more than once"
+            ]
+        },
+        {
+            "title": "IV Bag",
+            "itemid": "135",
+            "special": "no",
+            "stats": [
+                "Upon use, the IV bag will remove hearts and in exchange drop coins on the floor",
+                "1/30 chance to spawn when using the Blood Donation Machine",
+                "The IV bag can be used multiple times per half heart of damage due to the length of invincibility after taking damage",
+                "Synergises very well with the Bloody Penny trinket and game breaking combos using the D20",
+                "Can be extremely useful for the no-hit achievements since damage taken from the IV bag does not make you lose credit for the achievement",
+                "Recharge Time: Instant"
+            ]
+        },
+        {
+            "title": "Best Friend",
+            "itemid": "136",
+            "special": "no",
+            "stats": [
+                "Places a 'decoy' Isaac on the floor which explodes for 110 damage to anything in range",
+                "This item is known to cause a lot of instant death glitches. If the best friend is hit by a blood laser or gets stomped (in most cases), you can instantly die. Example situations include The Fallen/Krampus/Pride blood lasers and the stomp attacks during the Mom/Satan bosses. Having no red heart containers and only soul hearts can prevent most of these situations but not all",
+                "Recharge Time: 3 Rooms"
+            ]
+        },
+        {
+            "title": "Remote Detonator",
+            "itemid": "137",
+            "special": "no",
+            "stats": [
+                "+5 Bombs",
+                "Bombs no longer explode after a set period of time and will only do so when you use this item",
+                "Recharge Time: Instant"
+            ]
+        },
+        {
+            "title": "Stigmata",
+            "itemid": "138",
+            "special": "yes",
+            "stats": [
+                "+1 Health Up",
+                "+0.3 Damage"
+            ]
+        },
+        {
+            "title": "Mom's Purse",
+            "itemid": "139",
+            "special": "no",
+            "stats": [
+                "Allows the player to hold one additional trinket",
+                "This item allows the player to pick up a second trinket when they have also picked up The Tick",
+                "Item found in the Shop Room item pool"
+            ]
+        },
+        {
+            "title": "Bob's Curse",
+            "itemid": "140",
+            "special": "no",
+            "stats": [
+                "+5 Bomb",
+                "All dropped bombs will explode for 60 damage (base bomb damage) and leaves a poison effect, which does 7 damage per tick",
+                "14.3% chance to drop from the Super Sloth mini boss"
+            ]
+        },
+        {
+            "title": "Pageant Boy",
+            "itemid": "141",
+            "special": "no",
+            "stats": [
+                "Spawns 7 coins around the player, which can be pennies, nickels or dimes",
+                "Isaac wears a purple crown on his head when picked up"
+            ]
+        },
+        {
+            "title": "Scapular",
+            "itemid": "142",
+            "special": "no",
+            "stats": [
+                "Once per room, when the player is damaged to half a red heart left, they gain one Soul heart",
+                "Works slightly differently with ??? or if you have only soul hearts. When ??? takes damage that removes his final soul heart, he immediately gains one Soul Heart",
+                "You can tell when the scapular effect has been used for the current room because the yellow glow behind the player will have disappeared",
+                "Getting this item with the Habit means you can get an infinite amount of rolls on your space bar item. If you also have the D6 you can infinitely roll item rooms until you get any item you want and crash the game to your heart's content",
+                "Can appear in the Angel Room"
+            ]
+        },
+        {
+            "title": "Speed Ball",
+            "itemid": "143",
+            "special": "yes",
+            "stats": [
+                "+0.3 Player Speed Up",
+                "+0.2 Shot Speed Up",
+                "(Base shot speed is 1.0 and Max shot speed is 1.4"
+            ]
+        },
+        {
+            "title": "Bum Friend",
+            "itemid": "144",
+            "special": "no",
+            "stats": [
+                "A beggar who follows the player around and automatically picks up nearby coins. When picking up coins he will occasionally drop pickups (e.g. hearts, bombs, keys, pills, trinkets and tarot cards)"
+            ]
+        },
+        {
+            "title": "Guppy's Head",
+            "itemid": "145",
+            "special": "no",
+            "stats": [
+                "Upon activation, spawns 2-4 blue flies which damage nearby enemies. Blue flies do twice the player's damage",
+                "Counts as one item towards achieving Guppy state",
+                "1/50 chance to spawn in a red chest",
+                "An item commonly found in the Devil Room",
+                "Recharge Time: 1 Rooms"
+            ]
+        },
+        {
+            "title": "Prayer Card",
+            "itemid": "146",
+            "special": "yes",
+            "stats": [
+                "Gives the player half an eternal heart upon use",
+                "Can appear in the Angel Room",
+                "Recharge Time: 6 Rooms"
+            ]
+        },
+        {
+            "title": "Notched Axe",
+            "itemid": "147",
+            "special": "no",
+            "stats": [
+                "Breaks a single rock when activated",
+                "It's possible to use this item infinitely if you have access to another pedestal with a spacebar item on it by activating the Notched Axe, placing it back on the pedestal and walking out the room with the effect still active",
+                "Recharge Time: 1 Rooms"
+            ]
+        },
+        {
+            "title": "Infestation",
+            "itemid": "148",
+            "special": "no",
+            "stats": [
+                "When the player gets hit, 1-3 blue flies randomly spawn, which will attack enemies in close proximity",
+                "Blue flies do twice the player's damage"
+            ]
+        },
+        {
+            "title": "IPECAC",
+            "itemid": "149",
+            "special": "yes",
+            "stats": [
+                "Tears now become green projectiles which will arc over enemies and rocks and explode on contact, dealing 53.5 damage to anything in range at base damage. Damage increases will increase that number slightly",
+                "Tears down significantly: (delay = delay * 2.1 + 3)",
+                "Since this item effectively gives you unlimited bombs, it is extremely useful for finding secret rooms and escaping from tricky rooms by bombing the door",
+                "Too many Range stat upgrades can make this item harder to aim short shots",
+                "Taking Ipecac and My Reflection is a terrible idea. Don't do it"
+            ]
+        },
+        {
+            "title": "Tough Love",
+            "itemid": "150",
+            "special": "yes",
+            "stats": [
+                "Isaac now randomly shoots teeth instead of tears which deal x3.2 more damage than normal shots",
+                "The probability to fire a tooth is linked to the player's Luck stat, with +10 luck being a guaranteed tooth and base luck giving you a 1/10 chance for each tear to be a tooth. You start on +1 luck by default so a total of 9 'Luck Up' pills will result in all teeth shots",
+                "This item is only one of two uses for the in-game Luck Stat, with the other use being the chance for consumables to drop after clearing a room"
+            ]
+        },
+        {
+            "title": "The Mulligan",
+            "itemid": "151",
+            "special": "yes",
+            "stats": [
+                "On each successful hit, the player has a 1/6 chance to spawn a blue fly which fies towards your current target and damages them",
+                "Blue flies do twice the player's damage",
+                "Does not stack with the fly spawning ability that you get from being Guppy the cat"
+            ]
+        },
+        {
+            "title": "Technology 2",
+            "itemid": "152",
+            "special": "yes",
+            "stats": [
+                "Fires a continuous laser with unlimited range in addition to normal tears, which pierces all enemies and does damage 10 times per second",
+                "As Cain you will only fire the Tech 2 laser and no tears, due to his eyepatch",
+                "Damage down after calculations by a multiplier of 0.65. This -35% damage scales with all other damage increasing items and applies to other items like Mom's Knife or Brimstone, if you have them",
+                "The laser damages every 3 frames (10 times per second)"
+            ]
+        },
+        {
+            "title": "Mutant Spider",
+            "itemid": "153",
+            "special": "no",
+            "stats": [
+                "Tears now shoot four at a time (Quad shot)",
+                "Tears down significantly: (delay = delay * 2.1 + 3)",
+                "This essentially lowers your tear rate by about 2 tears per second",
+                "The order in which you take Polyphemus and the Mutant Spider items does NOT matter, the combination will be the same no matter which item you took first. Having Quad and Poly at the same time is not a damage down as long as you hit with 2 or more tears and the only damage down situation is if you have another tear modifier such as Mom's Knife or Brimstone which brings you back down to a single damage source",
+                "In the 1.5 version of the game (Most unholy edition), this item is a special item"
+            ]
+        },
+        {
+            "title": "Chemical Peel",
+            "itemid": "154",
+            "special": "yes",
+            "stats": [
+                "Tears shot from Isaac's left eye now do +2 damage",
+                "Since Cain only fires from one eye, shots have a 50% chance to do +2 damage for him"
+            ]
+        },
+        {
+            "title": "The Peeper",
+            "itemid": "155",
+            "special": "no",
+            "stats": [
+                "Gives the player an eye companion which floats around the room (similar to the eyes in the Peep boss fight) and damages enemies on contact",
+                "The Peeper does 8 damage per tick and does not scale with damage stat changes",
+                "Shots from the left eye are now coloured red but do no extra damage"
+            ]
+        },
+        {
+            "title": "Habit",
+            "itemid": "156",
+            "special": "no",
+            "stats": [
+                "With this item, when the player takes damage, 3 bars (half) of the space bar item is recharged",
+                "The Habit synergises extremely well with a few items: The Book of Revelations, the Nail and the Yum Heart can all technically make you invincible before the Womb and after the Womb if you acquire The Wafer",
+                "In the 1.5 version of the game (Most unholy edition), this item recharges one room's worth of charge instead of 3 bars of charge. For example, the D6 has a 3 room recharge, therefore you need to get hit 3 times with the habit to fully recharge it"
+            ]
+        },
+        {
+            "title": "Bloody Lust",
+            "itemid": "157",
+            "special": "yes",
+            "stats": [
+                "Each time the player kills an enemy, damage up by +0.28 up to a cap of 2.3",
+                "It is commonly believed that the cap is +3.3 damage, however this value is reduced by 1 before being applied to damage, meaning the cap is +2.3 in reality",
+                "The rage effect from this item can stack with the 'Samson's Lock' Trinket but will still stack at a max of +2.3 damage",
+                "Samson starts with this item",
+                "An item sometimes found in the Devil Room"
+            ]
+        },
+        {
+            "title": "Crystal Ball",
+            "itemid": "158",
+            "special": "no",
+            "stats": [
+                "Reveals the entire map and gives the player a random tarot card or soul heart (50% chance for each)",
+                "1/30 chance to drop from a Fortune Machine",
+                "Recharge Time: 6 Rooms"
+            ]
+        },
+        {
+            "title": "Spirit of The Night",
+            "itemid": "159",
+            "special": "no",
+            "stats": [
+                "Gives the player the ability to fly and spectral tears",
+                "An item commonly found in the Devil Room"
+            ]
+        },
+        {
+            "title": "Crack the Sky",
+            "itemid": "160",
+            "special": "no",
+            "stats": [
+                "Upon activation, this item creates beams of light at random locations in the current room, which deal damage to any enemies which come in contact with them",
+                "Each beam does 20 damage per tick, up to a maximum of 4 ticks per beam if the enemy remains in the beam for the entire duration",
+                "The Conquest boss uses this item during the fight",
+                "Recharge Time: 4 Rooms"
+            ]
+        },
+        {
+            "title": "Ankh",
+            "itemid": "161",
+            "special": "no",
+            "stats": [
+                "Upon death, the player respawns as Blue Baby with three Soul hearts. This is a one time use and all new heart containers will be Soul hearts",
+                "This effect still works if the Blue Baby is not available yet",
+                "Item found in the Secret Room item pool"
+            ]
+        },
+        {
+            "title": "Celtic Cross",
+            "itemid": "162",
+            "special": "no",
+            "stats": [
+                "Upon taking damage, the player has a 1/5 chance to gain an invulnerability shield for 200 frames (6.66 seconds)"
+            ]
+        },
+        {
+            "title": "Ghost Baby",
+            "itemid": "163",
+            "special": "no",
+            "stats": [
+                "A familiar which follows the player and shoots spectral tears",
+                "Ghost Baby's tears do 3.5 damage each and do not scale with damage stat changes",
+                "If you take the Holy Water with this familiar, it will automatically turn it into Brother Bobby until you activate the Holy Water, at which point it will then turn back into Ghost Baby"
+            ]
+        },
+        {
+            "title": "The Candle",
+            "itemid": "164",
+            "special": "no",
+            "stats": [
+                "An active item which fires a blue flame that damages anything in its path for significant damage (23 damage per tick)",
+                "The blue flame destroys enemy projectiles, making it extremely useful during the Isaac and Blue Baby Boss fights",
+                "The candle can also hit a lot of hidden or invisible enemies, such as Mom's Heart when it retreats into the ceiling",
+                "Item found in the Shop Room item pool",
+                "Recharge Time: 3-4 seconds"
+            ]
+        },
+        {
+            "title": "Cat-O-Nine-Tails",
+            "itemid": "165",
+            "special": "no",
+            "stats": [
+                "+0.23 Shot Speed Up",
+                "(Base shot speed is 1.0 and Max shot speed is 1.4"
+            ]
+        },
+        {
+            "title": "The D20",
+            "itemid": "166",
+            "special": "no",
+            "stats": [
+                "Re-rolls all pickups in the current room into another random pickup or chest",
+                "This includes hearts, bombs, keys, coins, pills, tarot cards, trinkets and chests",
+                "Synergises well with The Habit since it can be abused with the Blood Donation Machine",
+                "Also works on troll bombs spawned by the War boss fight or XVI Tower tarot card",
+                "Recharge Time: 6 Rooms"
+            ]
+        },
+        {
+            "title": "Harlequin Baby",
+            "itemid": "167",
+            "special": "no",
+            "stats": [
+                "A familiar which follows the player and shoots two tears diagonally",
+                "The Harlequin baby's tears do 4 damage each and do not scale with damage stat changes"
+            ]
+        },
+        {
+            "title": "Epic Fetus",
+            "itemid": "168",
+            "special": "yes",
+            "stats": [
+                "Tears now become missiles which do 80 damage each (the same as the 'Doctor's Remote' item)",
+                "Damage, tear and range stat upgrades do not affect this item",
+                "Epic Fetus over-rides every other item",
+                "Only found in the Secret Room item pool"
+            ]
+        },
+        {
+            "title": "Polyphemus",
+            "itemid": "169",
+            "special": "no",
+            "stats": [
+                "Greatly increases the damage of Isaac's tears but lowers the tears stat greatly",
+                "Damage up significantly: 'damage = 2 * (damage + 4)' assuming the player does not have The Inner Eye or Mutant Spider",
+                "Tears down significantly: (delay = delay * 2.1 + 3)",
+                "This essentially lowers your tear rate by about 2 tears per second",
+                "If a tear kills an enemy with more damage than needed, the tear travels through it and will do half damage to the next enemy it hits",
+                "The order in which you take Polyphemus and the Mutant Spider items does NOT matter, the combination will be the same no matter which item you took first. Having Quad and Poly at the same time is not a damage down as long as you hit with 2 or more tears and the only damage down situation is if you have another tear modifier such as Mom's Knife or Brimstone which brings you back down to a single damage source"
+            ]
+        },
+        {
+            "title": "Daddy Longlegs",
+            "itemid": "170",
+            "special": "yes",
+            "stats": [
+                "A shadow follows Isaac and stomps on enemies at random intervals",
+                "The Daddy Longlegs familiar does 20 damage per tick and usually hits twice per stomp, dealing a total of 40 damage. Damage stat upgrades do not increase this damage",
+                "The leg does not hurt Isaac"
+            ]
+        },
+        {
+            "title": "Spider Butt",
+            "itemid": "171",
+            "special": "no",
+            "stats": [
+                "Does 10 damage to all enemies in the room and slows down enemy movement and projectile speed for 4 seconds",
+                "Recharge Time: 2 Rooms"
+            ]
+        },
+        {
+            "title": "Sacrificial Dagger",
+            "itemid": "172",
+            "special": "no",
+            "stats": [
+                "Gives the player an orbital knife which does extremely high damage to anything it comes in contact with",
+                "The sacrificial dagger does not block any shots",
+                "The dagger does 15 damage per tick while it is in contact with something",
+                "Synergises well with high health or items which give you invulnerability"
+            ]
+        },
+        {
+            "title": "Mitre",
+            "itemid": "173",
+            "special": "no",
+            "stats": [
+                "An extra 50% chance that any non-specific heart spawns will become Soul hearts",
+                "Can appear in the Angel Room"
+            ]
+        },
+        {
+            "title": "Rainbow Baby",
+            "itemid": "174",
+            "special": "no",
+            "stats": [
+                "A familiar which follows the player and shoots a random tear effect every shot",
+                "Available effects include: Brother Bobby, Sister Maggy, Little Gish, Little Steve, Demon Baby, Ghost Baby and Harlequin Baby"
+            ]
+        },
+        {
+            "title": "Dad's Key",
+            "itemid": "175",
+            "special": "no",
+            "stats": [
+                "Upon activation, all closed doors in the current room will be opened",
+                "This includes Challenge Rooms, the Devil Deal Room and standard rooms on the Chest floor. However, it is not guaranteed to work with Angel and Devil Deal rooms",
+                "This does not work on rooms which normally need a key to open",
+                "Item found in the Secret Room item pool",
+                "Recharge Time: 2 Rooms"
+            ]
+        },
+        {
+            "title": "Stem Cells",
+            "itemid": "176",
+            "special": "no",
+            "stats": [
+                "+1 Health Up",
+                "+0.16 Shot Speed Up",
+                "(Base shot speed is 1.0 and Max shot speed is 1.4"
+            ]
+        },
+        {
+            "title": "Portable Slot",
+            "itemid": "177",
+            "special": "no",
+            "stats": [
+                "Does exactly what it says on the tin - Using the portable slot gives you the same effect as the Red Slot machine",
+                "Using this in a boss room to spawn a black fly after defeating the boss will enable the player to leave the room and re-enter, which will refresh the boss room and therefore give you another item",
+                "Recharge Time: Instant"
+            ]
+        },
+        {
+            "title": "Holy Water",
+            "itemid": "178",
+            "special": "no",
+            "stats": [
+                "When the player takes damage, the bottle breaks and leaves a pool on the floor which deals 8 damage (per tick) to enemies which walk into it, exactly like the Lemon Mishap effect",
+                "This item has a known bug where most followers will be downgraded into Brother Bobby. Breaking the holy water will revert the familiar back to normal for the current room"
+            ]
+        },
+        {
+            "title": "Fate",
+            "itemid": "179",
+            "special": "yes",
+            "stats": [
+                "The player gains the ability to fly and is given an eternal heart",
+                "This item only has a 50% chance to be in the Golden Chest item pool",
+                "If you find Pyro in the Secret Room that means Fate is definitely in the Golden Chest item pool because they are both attatched to the same random function when the game begins"
+            ]
+        },
+        {
+            "title": "The Black Bean",
+            "itemid": "180",
+            "special": "yes",
+            "stats": [
+                "Upon taking damage, all enemies in close proximity will be affected by 5 poison damage and then a poison effect of 3.5 damage per tic",
+                "The effect is exactly the same as 'The Bean' item"
+            ]
+        },
+        {
+            "title": "White Pony",
+            "itemid": "181",
+            "special": "no",
+            "stats": [
+                "Allows Isaac to fly while this item is held",
+                "Has a spacebar effect which is the same as the Crack the Sky item effect",
+                "Sets player speed to a static value of 1.5, unless current speed stat is higher",
+                "If you're fighting the Conquest Boss and don't have White Pony, it will drop",
+                "Recharge Time: 6 Rooms"
+            ]
+        },
+        {
+            "title": "Sacred Heart",
+            "itemid": "182",
+            "special": "yes",
+            "stats": [
+                "Tears are now white, do a lot more damage, move slower across the screen and will also home in on enemies in the same effect as the Spoon Bender item",
+                "Damage up significantly: damage = (damage * 2.3) + 1",
+                "-0.4 Tears Down",
+                "-0.25 Shot Speed Down",
+                "+4.125 Range Up (Base range = 23)",
+                "Fully heals all current red heart containers",
+                "+1 Soul heart",
+                "Can appear in the Angel Room",
+                "When you pick up Sacred Heart it is falsely labelled as a tear rate up",
+                "Getting multiple Sacred Hearts will only affect your range, tears and shot speed stats. The damage multiplier is the same"
+            ]
+        },
+        {
+            "title": "Tooth Picks",
+            "itemid": "183",
+            "special": "yes",
+            "stats": [
+                "+0.16 Shot Speed Up",
+                "(Base shot speed is 1.0 and Max shot speed is 1.4",
+                "This item turns your tears red but does NOT increase damage",
+                "This item is falsely labelled as Tear Stat Up"
+            ]
+        },
+        {
+            "title": "Holy Grail",
+            "itemid": "184",
+            "special": "yes",
+            "stats": [
+                "Gives the player the ability to fly",
+                "+1 Health Up",
+                "Can appear in the Angel Room"
+            ]
+        },
+        {
+            "title": "Dead Dove",
+            "itemid": "185",
+            "special": "yes",
+            "stats": [
+                "Gives the player flying and spectral tears",
+                "This is the Angel Room equivalent of the 'Spirit of the Night' item",
+                "Can appear in the Angel Room"
+            ]
+        },
+        {
+            "title": "Blood Rights",
+            "itemid": "186",
+            "special": "no",
+            "stats": [
+                "Upon activation, this item takes one red heart and damages all enemies in the room for 40 damage",
+                "If you spam press this item, the first use will take a whole heart but each subsequent use takes only half a heart for as long as you spam spacebar",
+                "Recharge Time: Instant"
+            ]
+        },
+        {
+            "title": "Guppy's Hairball",
+            "itemid": "187",
+            "special": "yes",
+            "stats": [
+                "Follows behind Isaac and can be swung around to deal damage on contact to enemies equal to: (3 + size * 2)",
+                "The hairball size starts at 1 and has a random chance to become larger each time it kills an enemy (up to a maximum of size = 6), with a probability of 1/x, where X is the current size of the hairball. At size one, the chance is 1/1; at size two, the chance is 1/2 etc",
+                "The size of the hairball persists between rooms, but at the end of each floor it decreases in size by roughly half. The exact calculation is \"size = floor(size * 0.5 + 0.5)",
+                "This item does NOT count towards achieving Guppy state"
+            ]
+        },
+        {
+            "title": "Abel",
+            "itemid": "188",
+            "special": "no",
+            "stats": [
+                "A familiar which mirrors the player's movements across the room and shoots in the opposite direction",
+                "Abel's tears do 3.5 damage each and do not scale with damage stat changes"
+            ]
+        },
+        {
+            "title": "SMB Super Fan",
+            "itemid": "189",
+            "special": "yes",
+            "stats": [
+                "+1 Health Up",
+                "+0.3 Damage",
+                "+0.2 Tears Up",
+                "-0.2 Player Speed Down",
+                "The speed down from this item is actually a bug as confirmed by Edmund, which would make sense because Meat Boy is notorious for going fast",
+                "This item is falsely labelled as an 'All stats up', it doesn't give range and is a speed down"
+            ]
+        },
+        {
+            "title": "Pyro",
+            "itemid": "190",
+            "special": "yes",
+            "stats": [
+                "+99 bombs",
+                "Has a 50% chance to be in the Secret room item pool",
+                "If you find Fate in a Golden Chest that means Pyro is definitely in the Secret Room item pool because they are both attatched to the same random function when the game begins"
+            ]
+        },
+        {
+            "title": "3 Dollar Bill",
+            "itemid": "191",
+            "special": "yes",
+            "stats": [
+                "Gives a random tear effect in each room",
+                "Tear effects include: The Sad Onion, The Inner Eye, Spoon Bender, My Reflection, Number One, Lucky Foot, Magneto, Mom's Contact, Ouija Board, Speed Ball, Tough Love",
+                "Since it gives the magneto effect, you can repeatedly leave and re-enter a room to obtain pick-ups which you could not normally get"
+            ]
+        },
+        {
+            "title": "Telepathy for Dummies",
+            "itemid": "192",
+            "special": "no",
+            "stats": [
+                "Gives the Spoon Bender (homing shots) effect for the current room",
+                "Recharge Time: 2 Rooms"
+            ]
+        },
+        {
+            "title": "MEAT!",
+            "itemid": "193",
+            "special": "no",
+            "stats": [
+                "+1 Health Up",
+                "+0.3 Damage",
+                "This item is falsely marked as a Tears Stat Up on the in-game description"
+            ]
+        },
+        {
+            "title": "Magic 8 Ball",
+            "itemid": "194",
+            "special": "no",
+            "stats": [
+                "+0.16 Shot Speed Up",
+                "Drops one random Tarot card",
+                "(Base shot speed is 1.0 and Max shot speed is 1.4",
+                "This item is falsely marked as a Tears Stat Up on the in-game description"
+            ]
+        },
+        {
+            "title": "Mom's Coin Purse",
+            "itemid": "195",
+            "special": "no",
+            "stats": [
+                "Spawns four random pills around the player"
+            ]
+        },
+        {
+            "title": "Squeezy",
+            "itemid": "196",
+            "special": "no",
+            "stats": [
+                "Spawns 2 Soul hearts on the floor",
+                "+0.4 Tears Up"
+            ]
+        },
+        {
+            "title": "Jesus Juice",
+            "itemid": "197",
+            "special": "yes",
+            "stats": [
+                "+0.5 Damage",
+                "+2.75 Range up (Base range = 23)",
+                "This item is falsely marked as a Tears Stat Up on the in-game description"
+            ]
+        },
+        {
+            "title": "Box",
+            "itemid": "198",
+            "special": "no",
+            "stats": [
+                "Spawns one of each pick-up",
+                "Pickups: 1 heart, 1 key, 1 bomb, 1 coin, 1 card, 1 pill, 1 trinket and can spawn variations of each",
+                "This item does not decrease your Player Speed which is sometimes believed"
+            ]
+        }
+    ]
+}
