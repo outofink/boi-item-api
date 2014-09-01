@@ -63,6 +63,9 @@ $app->get('/boi/cards', function () use ($app) {
 $app->get('/boi/all', function () use ($app) {
     $app->redirect('/boi/all/all');
 });
+$app->get('/boi/items/name/:name', function ($name) {
+    echo "name search";
+});
 $app->get('/boi/items/:id', function ($id) use ($app){
     global $items;
     $newid = intval($id)-1;
@@ -74,8 +77,5 @@ $app->get('/boi/items/:id', function ($id) use ($app){
         echo "Invalid id.";
         $app->redirect('/boi/items/name/'+$id);
     }
-});
-$app->get('/boi/items/name/:name', function ($name) {
-    echo "name search";
 });
 $app->run();
