@@ -42,7 +42,7 @@ $app->get('/boi/items/:id', function ($id) {
     global $items;
     $newid = intval($id)-1;
     if ($newid >= 0 and $newid < 198) {
-        $itembyid = encode($items[$newid]);
+        $itembyid = $items[$newid];
         pprint($itembyid);
     }
     else {
