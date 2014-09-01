@@ -12,6 +12,10 @@ $items = $boi["items"];
 $trinkets = $boi["trinkets"];
 $cards = $boi["cards"];
 
+$item_names = array();
+foreach ($items as $item) {
+    array_push($item_names, $item["title"]);
+}
 $app->get('/', function () {
     echo "Welcome to the Out of Ink Software API!";
 });
@@ -63,19 +67,18 @@ $app->get('/boi/cards', function () use ($app) {
 $app->get('/boi/all', function () use ($app) {
     $app->redirect('/boi/all/all');
 });
-$app->get('/boi/items/name/:name', function ($name) {
-    echo "name search";
-});
-$app->get('/boi/items/:id', function ($id) use ($app){
+
+$app->get('/boi/items/:id', function ($id){
     global $items;
+    global $item_names;
     $newid = intval($id)-1;
     if ($newid >= 0 and $newid < 198) {
         $itembyid = $items[$newid];
         pprint($itembyid);
     }
     else {
-        echo "Invalid id.";
-        $app->redirect('/boi/items/name/'+$id);
+        echo $item_names;
+
     }
-})->conditions(array('id' => '^["name"]'));
+});
 $app->run();
