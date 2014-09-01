@@ -13,7 +13,7 @@ $trinkets = $boi["trinkets"];
 $cards = $boi["cards"];
 
 $item_names = $items;
-foreach ($items_names as $item) {
+foreach ($items_names as &$item) {
     $item = $item["title"];
 }
 unset($item);
