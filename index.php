@@ -12,10 +12,11 @@ $items = $boi["items"];
 $trinkets = $boi["trinkets"];
 $cards = $boi["cards"];
 
-$item_names = array();
-foreach ($items as $item) {
-    array_push($item_names, $item["title"]);
+$item_names = $items;
+foreach ($items_names as $item) {
+    $item = $item["title"];
 }
+unset($item);
 $app->get('/', function () {
     echo "Welcome to the Out of Ink Software API!";
 });
@@ -77,7 +78,7 @@ $app->get('/boi/items/:id', function ($id){
         pprint($itembyid);
     }
     else {
-        echo $item_names;
+        print_r($item_names);
 
     }
 });
