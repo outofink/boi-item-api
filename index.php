@@ -81,7 +81,7 @@ $app->get('/boi/items/:id', function ($id){
     else {
         global $items;
         $item_names = $items;
-        foreach ($items_names as &$item) {
+        foreach ((array) $items_names as &$item) {
             $item = $item["title"];
             echo $item;
         }
