@@ -70,7 +70,7 @@ $app->get('/boi/all', function () use ($app) {
     $app->redirect('/boi/all/all');
 });
 
-$app->get('/boi/items/:id', function ($id){
+$app->get('/boi/items/:id', function ($id) use ($app){
     global $items;
     global $item_names;
     $newid = intval($id)-1;
@@ -79,7 +79,26 @@ $app->get('/boi/items/:id', function ($id){
         pprint($itembyid);
     }
     else {
-        print_r($item_names);
+        //fancy levenshtein searching for names
+        $input = $id;
+        $words = $item_names;
+
+        $shortest = -1;
+        foreach ($words as $word) {
+            $lev = levenshtein($input, $word);
+
+            if ($lev == 0) {
+                $closest = $word;
+                $shortest = 0;
+                break;
+            }
+            if ($lev <= $shortest || $shortest < 0) {
+                $closest  = $word;
+                $shortest = $lev;
+            }
+        }
+        $item_id = array_search($closest, $words) +1;
+        $app->redirect('/boi/items/'+$item_id);
     }
 });
 $app->run();
