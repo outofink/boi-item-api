@@ -85,7 +85,7 @@ $app->get('/boi/items/:id', function ($id) use ($app){
 
         $shortest = -1;
         foreach ($words as $word) {
-            $lev = levenshtein($input, $word);
+            $lev = levenshtein($input, $word, .1,1,1);
 
             if ($lev == 0) {
                 $closest = $word;
@@ -99,6 +99,7 @@ $app->get('/boi/items/:id', function ($id) use ($app){
         }
         $item_id = array_search($closest, $words) +1;
         $app->redirect('/boi/items/'+$item_id);
+
     }
 });
 $app->run();
