@@ -82,13 +82,11 @@ $app->get('/boi/items/:id', function ($id) use ($app){
         //fancy levenshtein searching for names
         $input = $id;
         $words = $item_names;
+
         $shortest = -1;
         foreach ($words as $word) {
-            if ((strpos($word,'the') !== false) && (strpos($word,'the') == false)) {
-                $input = "the"+$input;
-            }
-            $lev = levenshtein($input, $word, .7,1,.3);
-            $input=$id;
+            $lev = levenshtein($input, $word);
+
             if ($lev == 0) {
                 $closest = $word;
                 $shortest = 0;
@@ -101,7 +99,6 @@ $app->get('/boi/items/:id', function ($id) use ($app){
         }
         $item_id = array_search($closest, $words)+1;
         $app->redirect('/boi/items/'+$item_id);
-
     }
 });
 $app->run();
